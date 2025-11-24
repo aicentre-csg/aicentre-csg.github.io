@@ -8,11 +8,6 @@ permalink: /contact/
 
 We are always looking for new collaborations and opportunities. Please reach out to us via the details below or use the form to send a message.
 
-### Contact Details
-* **Email:** aic@city.ac.uk
-* **Address:** Northampton Square, London EC1V 0HB · United Kingdom
-* **Phone:** 020 7040 5060
-
 ---
 
 ### Send us a Message
