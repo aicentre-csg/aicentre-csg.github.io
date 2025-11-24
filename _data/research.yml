@@ -1,0 +1,38 @@
+- title: "Natural Language Processing (NLP)"
+  image: nlp.png
+  description: >
+    Our work explores how large language models and linguistic representations can enhance understanding, reasoning, and information retrieval. We study multilingual NLP, knowledge-grounded generation, and interpretability of text-based models.
+  papers:
+    - title: "Paper Title"
+      authors: "Author"
+      link: "https://arxiv.org"
+    - title: "Paper Title"
+      authors: "Author"
+      link: "https://arxiv.org"
+
+- title: "Reinforcement Learning (RL)"
+  image: rl.jpg
+  description: >
+    We develop RL agents that learn to interact with complex environments,focusing on sample-efficient training, multi-agent dynamics, and applied AI for real-world systems such as education, games, and adaptive interfaces.
+  papers:
+    - title: "Paper Title"
+      authors: "Author"
+      link: "https://arxiv.org"
+
+- title: "Neuro-Symbolic Machine Learning"
+  image: ns.png
+  description: >
+    Bridging neural and symbolic reasoning, our research in neuro-symbolic ML seeks to combine logical consistency and learning efficiency for interpretability and generalization across domains.
+  papers:
+    - title: "Paper Title"
+      authors: "Author"
+      link: "https://arxiv.org"
+
+- title: "Audio and Signal Processing"
+  image: audio.png
+  description: >
+    Our audio research focuses on music informatics, signal analysis, and computational sound understanding, aiming to model auditory perception and human-like sound reasoning.
+  papers:
+    - title: "Paper Title"
+      authors: "Author"
+      link: "https://arxiv.org"

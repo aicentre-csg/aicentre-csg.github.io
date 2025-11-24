@@ -1,0 +1,83 @@
+# ============================================
+# AI Centre @ City St George’s – People Members
+# ============================================
+
+- name: Prof. Golnaz Badkobeh
+  photo: golnaz.jpg
+  info: Head of Department of Computer Science
+  email: golnaz.badkobeh@citystgeorges.ac.uk
+  number_educ: 2
+  education1: PhD in Informatics, King's College London, 2009 – 2012
+  education2: BSc Mathematics, University of Bristol, 2005 – 2008
+  number_employment: 3
+  employment1: Professor & Head of Department, City St George’s University of London
+  employment2: Senior Lecturer / Deputy Head, Goldsmiths University of London (2017 – 2023)
+  employment3: Leverhulme Early Career Fellow, University of Warwick (2015 – 2017)
+  research: Combinatorics on words and string algorithms; pattern avoidance and string processing
+  website: https://www.city.ac.uk/about/people/academics/golnaz-badkobeh
+
+- name: Dr Tillman Weyde
+  photo: tillman.jpg
+  info: Reader in Computer Science
+  email: t.e.weyde@citystgeorges.ac.uk
+  number_educ: 3
+  education1: PhD Systematic Musicology (Music Technology), University of Osnabrück (2002)
+  education2: Staatsexamen (MSc) Computer Science, University of Osnabrück (1999)
+  education3: Staatsexamen (MSc) Mathematics, Music & Philosophy, University of Osnabrück (1994)
+  number_employment: 5
+  employment1: Reader, City St George’s University of London (2021 – present)
+  employment2: Senior Lecturer, City University of London (2009 – 2021)
+  employment3: Lecturer, City University of London (2005 – 2009)
+  employment4: Researcher, University of Osnabrück (1997 – 2005)
+  employment5: Visiting Lecturer in Mathematics, University of Applied Sciences Osnabrück (2000)
+  research: Machine learning, signal processing, music informatics, neural inductive biases
+  website: https://www.city.ac.uk/about/people/academics/tillman-weyde
+
+- name: Dr Chris Child
+  photo: chris.jpg
+  info: Associate Dean for Employability & Corporate Relations
+  email: c.child@citystgeorges.ac.uk
+  number_educ: 4
+  education1: PhD Approximate Dynamic Programming, City University London (2011)
+  education2: PGDip Academic Practice, City University London (2004)
+  education3: MSc Cognitive Science, University of Birmingham (1994)
+  education4: BSc Computer Science & Software Engineering, University of Birmingham (1993)
+  number_employment: 5
+  employment1: Senior Lecturer & Associate Dean for Employability, City St George’s (2008 – present)
+  employment2: Director, Childish Things Ltd (2005 – present)
+  employment3: Visiting Lecturer, City University London (2003 – 2008)
+  employment4: Designer & Programmer, Empire Interactive (1996 – 2002)
+  employment5: Analyst Engineer, Logica plc (1995 – 1996)
+  research: Game AI, reinforcement learning, probabilistic planning, applied machine learning
+  website: https://www.city.ac.uk/about/people/academics/chris-child
+
+- name: Dr Ernesto Jiménez-Ruiz
+  photo: ernesto.jpg
+  info: Senior Lecturer in Artificial Intelligence and Director of Research
+  email: ernesto.jimenez-ruiz@citystgeorges.ac.uk
+  number_educ: 2
+  education1: PhD, Universitat Jaume I, Spain (2006 – 2010)
+  education2: BSc/MSc, Universitat Jaume I, Spain (1999 – 2004)
+  number_employment: 5
+  employment1: Senior Lecturer in AI & Director of Research, City St George’s (2024 – present)
+  employment2: Lecturer in AI, City University of London (2019 – 2024)
+  employment3: Senior Research Associate, The Alan Turing Institute (2018 – 2019)
+  employment4: Researcher, University of Oslo (2016 – 2025)
+  employment5: Research Assistant, University of Oxford (2011 – 2016)
+  research: Semantic technologies, knowledge graphs, ontology alignment, machine learning
+  website: https://www.city.ac.uk/about/people/academics/ernesto-jimenez-ruiz
+
+- name: Dr Pranava Madhyastha
+  photo: pranava.png
+  info: Senior Lecturer in Computer Science
+  email: pranava.madhyastha@citystgeorges.ac.uk
+  number_educ: 1
+  education1: PhD, Universitat Politècnica de Catalunya, Spain (2012 – 2017)
+  number_employment: 3
+  employment1: Senior Lecturer, City St George’s University of London (2021 – present)
+  employment2: Research Fellow, Imperial College London (2018 – 2021)
+  employment3: Research Fellow in Machine Learning, University of Sheffield (2016 – 2018)
+  research: Multimodal machine learning, NLP, language generation, semantics
+  website: https://www.city.ac.uk/about/people/academics/pranava-madhyastha
+
+

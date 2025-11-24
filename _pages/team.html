@@ -1,0 +1,134 @@
+---
+title: "AI Centre - People"
+layout: gridlay
+excerpt: "AI Centre@CSG: People members"
+sitemap: false
+permalink: /People/
+---
+
+<div class="container">
+
+  <h1 class="mt-4 mb-4">Group Members</h1>
+
+  <p><strong>We are looking for new PhD students, Postdocs, and Master students to join the Team</strong>
+  (<a href="{{ site.url }}{{ site.baseurl }}/vacancies">see openings</a>)!</p>
+
+
+  <hr>
+
+  <style>
+    .people-grid-list {
+      display: grid;
+      grid-template-columns: 1fr; /* Default: 1 column mobile */
+      gap: 2rem 1rem; /* Row Gap: 2rem, Column Gap: 1rem */
+      padding-left: 1.2rem; /* Standard bullet indentation */
+      margin-bottom: 0;
+    }
+
+    /* Desktop: Strictly 3 Columns */
+    @media (min-width: 768px) {
+      .people-grid-list {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    /* List Item Styling */
+    .people-grid-list li {
+      padding-left: 0.25rem; /* Slight spacing text from bullet */
+    }
+
+    .person-name {
+      /* No specific font-size set: Inherits site default */
+      font-weight: 400; /* Regular weight (not bold) */
+      color: inherit;   /* Inherits default text color */
+      margin-bottom: 2px;
+    }
+
+    .person-meta {
+      font-size: 0.95em; /* Very slightly smaller for hierarchy, or remove to make identical */
+      color: #6c757d;    /* Muted color for distinction */
+      line-height: 1.3;
+    }
+
+    .person-link {
+      font-size: 0.95em;
+      margin-top: 2px;
+    }
+  </style>
+
+
+  <h2 id="staff" class="mt-5 mb-4">Academics</h2>
+
+  <ul class="people-grid-list">
+    {% for member in site.data.acedemics_with_links %}
+      <li>
+        <div class="person-name">{{ member.Name }}</div>
+        
+        {% if member.Title %}
+          <div class="person-meta">{{ member.Title }}</div>
+        {% endif %}
+
+        {% if member.link %}
+          <div class="person-link">
+            <a href="{{ member.link }}" target="_blank">View Profile</a>
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <hr>
+
+  <h2 id="students" class="mt-5 mb-4">PhD Students</h2>
+
+  <ul class="people-grid-list">
+    {% for member in site.data.phd_students %}
+      <li>
+        <div class="person-name">{{ member.Name }}</div>
+        
+        {% if member.link %}
+          <div class="person-link">
+            <a href="{{ member.link }}" target="_blank">View Profile</a>
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <hr>
+
+  <h2 id="researcher" class="mt-5 mb-4">Research and Presidential Fellow</h2>
+
+  <ul class="people-grid-list">
+    {% for member in site.data.research_fellow %}
+      <li>
+        <div class="person-name">{{ member.Name }}</div>
+
+        {% if member.link %}
+          <div class="person-link">
+            <a href="{{ member.link }}" target="_blank">View Profile</a>
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <hr>
+
+  <h2 id="visitors" class="mt-5 mb-4">Visitors</h2>
+
+  <ul class="people-grid-list">
+    {% for member in site.data.visitors %}
+      <li>
+        <div class="person-name">{{ member.Name }}</div>
+
+        {% if member.link %}
+          <div class="person-link">
+            <a href="{{ member.link }}" target="_blank">View Profile</a>
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

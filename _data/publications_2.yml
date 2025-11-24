@@ -1,0 +1,84 @@
+- title: 'Foundation model assisted visual analytics: Opportunities and Challenges'
+  authors: Maeve Hutchinson, Radu Jianu, Aidan Slingsby, Pranava Madhyastha
+  journal: Comput. Graph.
+  year: '2025'
+  url: https://doi.org/10.1016/j.cag.2025.104246
+  doi: 10.1016/J.CAG.2025.104246
+- title: 'SEM-CTRL: Semantically Controlled Decoding'
+  authors: Mohammad Albinhassan, Pranava Madhyastha, Alessandra Russo
+  journal: CoRR
+  year: '2025'
+  url: https://doi.org/10.48550/arXiv.2503.01804
+  doi: 10.48550/ARXIV.2503.01804
+- title: An Empirical Study of Conformal Prediction in LLM with ASP Scaffolds for
+    Robust Reasoning
+  authors: Navdeep Kaur, Lachlan McPheat, Alessandra Russo, Anthony G. Cohn, Pranava
+    Madhyastha
+  journal: CoRR
+  year: '2025'
+  url: https://doi.org/10.48550/arXiv.2503.05439
+  doi: 10.48550/ARXIV.2503.05439
+- title: 'NeSy4VRD: A Multifaceted Resource for Neurosymbolic AI Research using Knowledge
+    Graphs in Visual Relationship Detection (Version 1.1)'
+  authors: David Herron, Ernesto Jim\'enez-Ruiz, Giacomo Tarroni, Tillman Weyde
+  journal: ''
+  year: '2025'
+  url: https://doi.org/10.5281/zenodo.17076303
+  doi: 10.5281/ZENODO.17076303
+- title: 'Explorations of the Softmax Space: Knowing When the Neural Network Doesn''t
+    Know..'
+  authors: Daniel Sikar, Artur d'Avila Garcez, Tillman Weyde
+  journal: CoRR
+  year: '2025'
+  url: https://doi.org/10.48550/arXiv.2502.00456
+  doi: 10.48550/ARXIV.2502.00456
+- title: Wavelet-Filtering of Symbolic Music Representations for Folk Tune Segmentation
+    and Classification
+  authors: Gissel Velarde, Tillman Weyde, David Meredith
+  journal: CoRR
+  year: '2025'
+  url: https://doi.org/10.48550/arXiv.2504.20522
+  doi: 10.48550/ARXIV.2504.20522
+- title: 'KG2Tables: A Domain-Specific Tabular Data Generator to Evaluate Semantic
+    Table Interpretation Systems (Resource Paper)'
+  authors: Nora Abdelmageed, Ernesto Jim\'enez-Ruiz, Oktie Hassanzadeh, Birgitta K\"onig-Ries
+  journal: Trans. Graph Data Knowl.
+  year: '2025'
+  url: https://doi.org/10.4230/TGDK.3.1.1
+  doi: 10.4230/TGDK.3.1.1
+- title: Proceedings of the 19th International Workshop on Ontology Matching co-located
+    with the 23rd International Semantic Web Conference (ISWC 2024), Baltimore, USA,
+    November 11, 2024
+  authors: ''
+  journal: ''
+  year: '2025'
+  url: https://ceur-ws.org/Vol-3897
+  doi: ''
+- title: KG2Tables
+  authors: Nora Abdelmageed, Ernesto Jim\'enez-Ruiz, Oktie Hassanzadeh, Birgitta K\"onig-Ries
+  journal: ''
+  year: '2025'
+  url: https://doi.org/10.4230/artifacts.22938
+  doi: 10.4230/ARTIFACTS.22938
+- title: 'Non-Euclidean Video Games: Exploring Player Perceptions and Experiences
+    Inside Impossible Spaces'
+  authors: Daniil Osudin, Alena Denisova, Christopher Child
+  journal: IEEE Trans. Games
+  year: '2025'
+  url: https://doi.org/10.1109/TG.2024.3386816
+  doi: 10.1109/TG.2024.3386816
+- title: 'DeeP-Mod: Deep Dynamic Programming Based Environment Modelling Using Feature
+    Extraction'
+  authors: Chris Child, Lam Ngo
+  journal: ''
+  year: '2025'
+  url: https://doi.org/10.1007/978-981-95-1233-1\_3
+  doi: 10.1007/978-981-95-1233-1\_3
+- title: International Classification of Diseases Prediction from MIMIIC-III Clinical
+    Text Using Pre-Trained ClinicalBERT and NLP Deep Learning Models Achieving State
+    of the Art
+  authors: Ilyas Aden, Christopher H. T. Child, Constantino Carlos Reyes-Aldasoro
+  journal: Big Data Cogn. Comput.
+  year: '2024'
+  url: https://doi.org/10.3390/bdcc8050047
+  doi: 10.3390/BDCC8050047

@@ -1,0 +1,259 @@
+---
+title: "AI Centre - People"
+layout: gridlay
+excerpt: "AI Centre@CSG: People members"
+sitemap: false
+permalink: /People2/
+---
+
+<div class="container">
+
+  <h1 class="mt-4 mb-4">Group Members</h1>
+
+  <p><strong>We are looking for new PhD students, Postdocs, and Master students to join the Team</strong>
+  (<a href="{{ site.url }}{{ site.baseurl }}/vacancies">see openings</a>)!</p>
+
+  <p>Jump to
+    <a href="#staff">Academics</a>,
+    <a href="#students">PhD Students</a>,
+    <a href="#researcher">Researchers</a>,
+    <a href="#alumni">Alumni</a>,
+    <a href="#support">Administrative Support</a>,
+    <a href="#visitors">Lab Visitors</a>.
+  </p>
+
+  <hr>
+
+  <!-- STAFF SECTION -->
+  <h2 id="staff" class="mt-5 mb-4">Academics</h2>
+
+  {% assign number_printed = 0 %}
+  {% for member in site.data.team_members %}
+    {% assign even_odd = number_printed | modulo: 2 %}
+    {% if even_odd == 0 %}
+      <div class="row mb-4">
+    {% endif %}
+
+    <div class="col-md-6 mb-4">
+      <div class="card p-3 shadow-sm" style="border-radius:12px;">
+        <div class="d-flex align-items-start">
+          <img src="{{ site.url }}{{ site.baseurl }}/images/Peoplepic/{{ member.photo }}"
+               alt="{{ member.name }}"
+               class="img-fluid rounded me-3"
+               style="width: 110px; height: auto; object-fit: cover;">
+          <div>
+            <h4 class="mb-1">{{ member.name }}</h4>
+            <p class="text-muted mb-2"><em>{{ member.info }}</em></p>
+
+            {% if member.email %}
+              <p class="mb-1"><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+            {% endif %}
+            {% if member.website %}
+              <p class="mb-1"><strong>Website:</strong> <a href="{{ member.website }}" target="_blank">{{ member.website }}</a></p>
+            {% endif %}
+            {% if member.research %}
+              <p class="mb-2"><strong>Research:</strong> {{ member.research }}</p>
+            {% endif %}
+          </div>
+        </div>
+
+        {% if member.number_educ %}
+          <ul class="mt-3 mb-2">
+            {% for i in (1..member.number_educ) %}
+              {% assign edu = "education" | append: i %}
+              {% if member[edu] %}
+                <li>{{ member[edu] | markdownify }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if member.number_employment %}
+          <p class="mt-2 mb-1"><strong>Employment:</strong></p>
+          <ul class="mb-0">
+            {% for i in (1..member.number_employment) %}
+              {% assign job = "employment" | append: i %}
+              {% if member[job] %}
+                <li>{{ member[job] }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+
+    {% assign number_printed = number_printed | plus: 1 %}
+    {% if even_odd == 1 %}
+      </div>
+    {% endif %}
+  {% endfor %}
+  {% if number_printed | modulo: 2 == 1 %}
+    </div>
+  {% endif %}
+
+  <hr>
+
+<!-- STUDENTS -->
+<h2 id="students" class="mt-5 mb-4">PhD Students</h2>
+
+<div class="row">
+  {% for member in site.data.students %}
+    <div class="col-md-6 mb-3">
+      <div class="card p-3 shadow-sm" style="border-radius:12px;">
+
+        <div class="d-flex align-items-start">
+          {% if member.photo %}
+            <img src="{{ site.url }}{{ site.baseurl }}/images/Peoplepic/{{ member.photo }}"
+                 alt="{{ member.name }}"
+                 class="img-fluid rounded me-3"
+                 style="width: 100px; height: auto; object-fit: cover;">
+          {% else %}
+            <!-- fallback silhouette if photo missing -->
+            <img src="{{ site.url }}{{ site.baseurl }}/images/Peoplepic/default_avatar.png"
+                 alt="Profile placeholder"
+                 class="img-fluid rounded me-3"
+                 style="width: 100px; height: auto; object-fit: cover; opacity: 0.6;">
+          {% endif %}
+
+          <div>
+            <h4 class="mb-1">{{ member.name }}</h4>
+            <p class="text-muted mb-2"><em>{{ member.info }}</em></p>
+
+            {% if member.email %}
+              <p class="mb-1"><strong>Email:</strong> 
+                <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+              </p>
+            {% endif %}
+          </div>
+        </div>
+
+        {% if member.number_educ %}
+          <ul class="mt-2 mb-0">
+            {% for i in (1..member.number_educ) %}
+              {% assign edu = "education" | append: i %}
+              {% if member[edu] %}
+                <li>{{ member[edu] }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+  <hr>
+
+<!-- Researcher -->
+<h2 id="researcher" class="mt-5 mb-4">Researchers</h2>
+
+<div class="row">
+  {% for member in site.data.researcher %}
+    <div class="col-md-6 mb-3">
+      <div class="card p-3 shadow-sm" style="border-radius:12px;">
+
+        <div class="d-flex align-items-start">
+          {% if member.photo %}
+            <img src="{{ site.url }}{{ site.baseurl }}/images/Peoplepic/{{ member.photo }}"
+                 alt="{{ member.name }}"
+                 class="img-fluid rounded me-3"
+                 style="width: 100px; height: auto; object-fit: cover;">
+          {% else %}
+            <!-- fallback silhouette if photo missing -->
+            <img src="{{ site.url }}{{ site.baseurl }}/images/Peoplepic/default_avatar.png"
+                 alt="Profile placeholder"
+                 class="img-fluid rounded me-3"
+                 style="width: 100px; height: auto; object-fit: cover; opacity: 0.6;">
+          {% endif %}
+
+          <div>
+            <h4 class="mb-1">{{ member.name }}</h4>
+            <p class="text-muted mb-2"><em>{{ member.info }}</em></p>
+
+            {% if member.email %}
+              <p class="mb-1"><strong>Email:</strong> 
+                <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+              </p>
+            {% endif %}
+          </div>
+        </div>
+
+        {% if member.number_educ %}
+          <ul class="mt-2 mb-0">
+            {% for i in (1..member.number_educ) %}
+              {% assign edu = "education" | append: i %}
+              {% if member[edu] %}
+                <li>{{ member[edu] }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+
+  <hr>
+
+  <!-- ALUMNI -->
+  <h2 id="alumni" class="mt-5 mb-4">Alumni</h2>
+
+  <div class="row">
+    {% for member in site.data.alumni_members %}
+      <div class="col-md-6 mb-3">
+        <div class="card p-3 shadow-sm" style="border-radius:12px;">
+          <div class="d-flex align-items-start">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/Peoplepic/{{ member.photo }}"
+                 alt="{{ member.name }}"
+                 class="img-fluid rounded me-3"
+                 style="width: 100px; height: auto; object-fit: cover;">
+            <div>
+              <h4 class="mb-1">{{ member.name }}</h4>
+              <p class="mb-0"><em>{{ member.duration }}</em><br>
+              Role: {{ member.info }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <hr>
+
+  <!-- VISITORS -->
+  <h2 id="visitors" class="mt-5 mb-3">Former Visitors, BSc/MSc Students</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <h5>Visitors</h5>
+      <ul>
+        {% for member in site.data.alumni_visitors %}
+          <li>{{ member.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h5>Master Students</h5>
+      <ul>
+        {% for member in site.data.alumni_msc %}
+          <li>{{ member.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h5>Bachelor Students</h5>
+      <ul>
+        {% for member in site.data.alumni_bsc %}
+          <li>{{ member.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- ADMIN -->
+  <h2 id="support" class="mt-5 mb-3">Administrative Support</h2>
+  <p><a href="sample@gmail.com">Mr Sample Name</a> is helping us (and other groups) with administration.</p>
+
+</div>

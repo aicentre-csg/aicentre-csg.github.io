@@ -1,0 +1,50 @@
+- title: "Bijective BWT based compression schemes"
+  image: p1.png
+  description: >
+    We investigate properties of the bijective Burrows-Wheeler transform (BBWT), showing relationships between bidirectional macro schemes and maximal character runs. We also introduce new insights into BBWT vs standard BWT with theoretical separations.
+  authors: "Golnaz Badkobeh, Hideo Bannai, Dominik Köppl"
+  date: "2024/09/19"
+  book: "International Symposium on String Processing and Information Retrieval"
+  pages: "16–25"
+  publisher: "Springer Nature Switzerland"
+  link:
+    url: "https://arxiv.org/abs/2409.12345"
+    display: "[PDF] from arxiv.org"
+  highlight: 1
+
+- title: "ORSA-T: Multi-View Object-Centric Scene Representation Learning with Slot Attention and Transformer"
+  image: p2.png
+  description: >
+    We propose ORSA-T, combining Slot Attention and Transformer aggregation to iteratively improve object-centric scene representation learning from partial multi-view inputs.
+  authors: "H. Placek, C. H. T. Child, T. Weyde"
+  date: "2025/09/16"
+  book: "International Joint Conference on Neural Networks 2025"
+  publisher: "IEEE"
+  link:
+    url: "https://city.ac.uk/orsa-t"
+    display: "[PDF] from city.ac.uk"
+  highlight: 1
+
+- title: "Noise or Nuance: An Investigation Into Useful Information and Filtering For LLM Driven AKBC"
+  image: p3.png
+  description: >
+    RAG and fine-tuning are common for LLM quality improvement, but under constrained conditions (e.g. LM-KBC Challenge), we investigate generation, quality assurance, and response parsing.
+  authors: "Alex Clay, Ernesto Jiménez-Ruiz, Pranava Madhyastha"
+  date: "2025/09/10"
+  conference: "KBC-LM Workshop and LM-KBC Challenge at ISWC 2025"
+  link:
+    url: "https://arxiv.org/abs/2509.08903"
+    display: "[PDF] from arxiv.org"
+  highlight: 1
+
+- title: "Chart Question Answering from Real-World Analytical Narratives"
+  image: p4.png
+  description: >
+    We present a dataset for chart question answering based on visualization notebooks, featuring real-world multi-view charts and analytical narratives for multimodal LLMs.
+  authors: "Maeve Hutchinson, Radu Jianu, Aidan Slingsby, Jo Wood, Pranava Madhyastha"
+  date: "2025/07/02"
+  journal: "arXiv preprint arXiv:2507.01627"
+  link:
+    url: "https://arxiv.org/abs/2507.01627"
+    display: "[PDF] from arxiv.org"
+  highlight: 1

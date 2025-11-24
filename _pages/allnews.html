@@ -1,0 +1,63 @@
+---
+title: "News and Announcements"
+layout: textlay
+excerpt: "AI Centre@CSG - City St George's, University of London"
+sitemap: false
+permalink: /allnews.html
+---
+
+<h1><strong>News and Announcements</strong></h1>
+
+{% assign today = 'now' | date: '%s' | plus: 0 %}
+{% assign grace = 86400 %}  <!-- 1-day buffer -->
+{% assign future_cutoff = today | minus: grace %}
+
+{% assign all_items = site.data.news %}
+{% assign enriched = "" | split: "" %}
+
+{%- comment -%}
+Convert all YAML date strings ("3 November, 2025") into epoch seconds.
+{%- endcomment -%}
+{% for item in all_items %}
+  {% assign epoch = item.date | date_to_xmlschema | date: '%s' | plus: 0 %}
+  {% assign packed = epoch | append: "|||" | append: item.date | append: "|||" | append: item.headline %}
+  {% assign enriched = enriched | push: packed %}
+{% endfor %}
+
+{% assign sorted = enriched | sort %}
+
+<h2>Upcoming Events & Announcements</h2>
+{% for entry in sorted %}
+  {% assign parts = entry | split: "|||" %}
+  {% assign epoch = parts[0] | plus: 0 %}
+  {% assign date = parts[1] %}
+  {% assign headline = parts[2] %}
+  {% if epoch >= future_cutoff %}
+    <div class="news-item" style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #ddd;">
+      <p style="font-size: 0.95em; color: #666; margin-bottom: 0.3em;">
+        {{ date }}
+      </p>
+      <div style="font-size: 1.05em;">
+        {{ headline | markdownify }}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+
+<h2>Past News & Announcements</h2>
+{% for entry in sorted %}
+  {% assign parts = entry | split: "|||" %}
+  {% assign epoch = parts[0] | plus: 0 %}
+  {% assign date = parts[1] %}
+  {% assign headline = parts[2] %}
+  {% if epoch < future_cutoff %}
+    <div class="news-item" style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #ddd;">
+      <p style="font-size: 0.95em; color: #666; margin-bottom: 0.3em;">
+        {{ date }}
+      </p>
+      <div style="font-size: 1.05em;">
+        {{ headline | markdownify }}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}

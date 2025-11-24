@@ -1,0 +1,6 @@
+- name: Researcher Name
+  photo: sample.png
+  info: LLMs, Computational Linguistic
+  email: sample@citystgeorges.ac.uk
+  number_educ: 2
+  education1: MSc Data Science, City St George’s, University of London (2022-2023)

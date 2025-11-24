@@ -1,0 +1,102 @@
+- title: 'Foundation model assisted visual analytics: Opportunities and Challenges'
+  authors: Maeve Hutchinson, Radu Jianu, Aidan Slingsby, Pranava Madhyastha
+  journal: Comput. Graph.
+  year: '2025'
+  url: https://doi.org/10.1016/j.cag.2025.104246
+  doi: 10.1016/J.CAG.2025.104246
+- title: 'SEM-CTRL: Semantically Controlled Decoding'
+  authors: Mohammad Albinhassan, Pranava Madhyastha, Alessandra Russo
+  journal: CoRR
+  year: '2025'
+  url: https://doi.org/10.48550/arXiv.2503.01804
+  doi: 10.48550/ARXIV.2503.01804
+- title: An Empirical Study of Conformal Prediction in LLM with ASP Scaffolds for
+    Robust Reasoning
+  authors: Navdeep Kaur, Lachlan McPheat, Alessandra Russo, Anthony G. Cohn, Pranava
+    Madhyastha
+  journal: CoRR
+  year: '2025'
+  url: https://doi.org/10.48550/arXiv.2503.05439
+  doi: 10.48550/ARXIV.2503.05439
+- title: 'NeSy4VRD: A Multifaceted Resource for Neurosymbolic AI Research using Knowledge
+    Graphs in Visual Relationship Detection (Version 1.1)'
+  authors: David Herron, Ernesto Jimenez-Ruiz, Giacomo Tarroni, Tillman Weyde
+  journal: ''
+  year: '2025'
+  url: https://doi.org/10.5281/zenodo.17076303
+  doi: 10.5281/ZENODO.17076303
+- title: 'Explorations of the Softmax Space: Knowing When the Neural Network Doesn''t
+    Know..'
+  authors: Daniel Sikar, Artur d'Avila Garcez, Tillman Weyde
+  journal: CoRR
+  year: '2025'
+  url: https://doi.org/10.48550/arXiv.2502.00456
+  doi: 10.48550/ARXIV.2502.00456
+- title: Wavelet-Filtering of Symbolic Music Representations for Folk Tune Segmentation
+    and Classification
+  authors: Gissel Velarde, Tillman Weyde, David Meredith
+  journal: CoRR
+  year: '2025'
+  url: https://doi.org/10.48550/arXiv.2504.20522
+  doi: 10.48550/ARXIV.2504.20522
+- title: 'KG2Tables: A Domain-Specific Tabular Data Generator to Evaluate Semantic
+    Table Interpretation Systems (Resource Paper)'
+  authors: Nora Abdelmageed, Ernesto Jimenez-Ruiz, Oktie Hassanzadeh, Birgitta König-Ries
+  journal: Trans. Graph Data Knowl.
+  year: '2025'
+  url: https://doi.org/10.4230/TGDK.3.1.1
+  doi: 10.4230/TGDK.3.1.1
+- title: KG2Tables
+  authors: Nora Abdelmageed, Ernesto Jimenez-Ruiz, Oktie Hassanzadeh, Birgitta König-Ries
+  journal: ''
+  year: '2025'
+  url: https://doi.org/10.4230/artifacts.22938
+  doi: 10.4230/ARTIFACTS.22938
+- title: 'Non-Euclidean Video Games: Exploring Player Perceptions and Experiences
+    Inside Impossible Spaces'
+  authors: Daniil Osudin, Alena Denisova, Christopher Child
+  journal: IEEE Trans. Games
+  year: '2025'
+  url: https://doi.org/10.1109/TG.2024.3386816
+  doi: 10.1109/TG.2024.3386816
+- title: 'DeeP-Mod: Deep Dynamic Programming Based Environment Modelling Using Feature
+    Extraction'
+  authors: Chris Child, Lam Ngo
+  journal: ''
+  year: '2025'
+  url: https://doi.org/10.1007/978-981-95-1233-1\_3
+  doi: 10.1007/978-981-95-1233-1\_3
+- title: Disentangling concept semantics via multilingual averaging in Sparse Autoencoders
+  authors: Cliff O'Reilly, Ernesto Jimenez-Ruiz, Tillman Weyde
+  journal: CoRR
+  year: '2025'
+  url: https://doi.org/10.48550/arXiv.2508.14275
+  doi: 10.48550/ARXIV.2508.14275
+- title: International Classification of Diseases Prediction from MIMIIC-III Clinical
+    Text Using Pre-Trained ClinicalBERT and NLP Deep Learning Models Achieving State
+    of the Art
+  authors: Ilyas Aden, Christopher H. T. Child, Constantino Carlos Reyes-Aldasoro
+  journal: Big Data Cogn. Comput.
+  year: '2024'
+  url: https://doi.org/10.3390/bdcc8050047
+  doi: 10.3390/BDCC8050047
+
+- title: Towards a Unified Model for Generating Answers and Explanations in Visual
+    Question Answering
+  authors: Chenxi Whitehouse, Tillman Weyde, Pranava Madhyastha
+  journal: ''
+  year: '2023'
+  url: https://doi.org/10.18653/v1/2023.findings-eacl.126
+  doi: 10.18653/V1/2023.FINDINGS-EACL.126
+- title: Are words equally surprising in audio and audio-visual comprehension?
+  authors: Pranava Madhyastha, Ye Zhang, Gabriella Vigliocco
+  journal: CoRR
+  year: '2023'
+  url: https://doi.org/10.48550/arXiv.2307.07277
+  doi: 10.48550/ARXIV.2307.07277
+- title: Hand Pose Estimation Using Deep Stereovision and Markov-Chain Monte Carlo
+  authors: Rilwan Remilekun Basaru, Chris Child, Eduardo Alonso, Greg G. Slabaugh
+  journal: ''
+  year: '2017'
+  url: https://doi.org/10.1109/ICCVW.2017.76
+  doi: 10.1109/ICCVW.2017.76
