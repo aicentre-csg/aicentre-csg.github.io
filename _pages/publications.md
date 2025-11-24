@@ -10,8 +10,6 @@ permalink: /publications/
 # Publications
 
 
-# Publications
-
 <ul>
 {% for publi in site.data.publications_3 %}
   <li>
