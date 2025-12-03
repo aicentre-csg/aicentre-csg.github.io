@@ -8,7 +8,7 @@ permalink: /
 
 
 
-We are a research group in the School of Science & Technology at [City St George's, University of London](https://www.citystgeorges.ac.uk/).
+We are the Artificial Intelligence Research Centre in the School of Science & Technology at [City St George's, University of London](https://www.citystgeorges.ac.uk/).
 
 Our work bridges the gap between fundamental artificial intelligence research and real-world impact. We collaborate across disciplines to design intelligent systems that are interpretable, efficient, and responsible. 
 
