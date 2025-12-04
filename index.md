@@ -7,7 +7,6 @@ permalink: /
 ---
 
 
-
 We are the Artificial Intelligence Research Centre in the School of Science & Technology at [City St George's, University of London](https://www.citystgeorges.ac.uk/).
 
 Our work bridges the gap between fundamental artificial intelligence research and real-world impact. We collaborate across disciplines to design intelligent systems that are interpretable, efficient, and responsible. 
@@ -23,7 +22,7 @@ Through teaching, innovation, and open research, we aim to shape the future of A
         <li data-target="#carousel" data-slide-to="3"></li>
         <li data-target="#carousel" data-slide-to="4"></li>
         <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
+        <!--li data-target="#carousel" data-slide-to="6"></li-->
     </ol>
 
     <!-- Items -->
