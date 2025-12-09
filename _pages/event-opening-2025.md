@@ -26,10 +26,11 @@ A poster session and networking reception followed, showcasing current projects 
 
 ## Impressions from the Event
 
-![Poster Session](/images/slider7001400/PosterSession.jpg)
+![Poster Session](/images/slider7001400/Poster Session.jpg)
 ![Presiden Sir Anthony Finkelstein and Centre Director Tillman Weyde](/images/slider7001400/TWandAF.jpg)
 ![President Sir Anthony Funkelstein delivering the keynote address](/images/slider7001400/AF-keynote.jpg)
 
 ---
+
 
 
