@@ -1,38 +1,35 @@
 ---
-title: "AI Centre@CSG – Past Event: Opening Ceremony"
+title: "AI Centre@CSG – Past Event: AI Centre Launch"
 layout: textlay
 excerpt: "Past Event"
 sitemap: false
 permalink: /event-opening-2025
 ---
 
-# Opening Ceremony – Past Event
+# Artificial Intelligence Research Centre Launch Event
 
-Our opening ceremony was successfully held, marking the beginning of the AI Centre@CSG initiative.  
-This page provides a summary and a few placeholder images (to be replaced with the actual event photos).
+City St George’s has launched its new Artificial Intelligence Research Centre in the School of Science and Technology, marking a major step in strengthening the university’s position in the UK AI landscape.
 
 ---
 
 ## Event Summary
 
-The event featured a brief introduction to our mission, upcoming activities, and the vision for the AI Centre.  
-Attendees included members of the centre, collaborators, and invited guests.  
-The programme included short talks, networking sessions, and demonstrations.
+At the launch event on 24 November 2025, Interim Director Dr Tillman Weyde welcomed guests and outlined the Centre’s mission to advance rigorous, responsible and impactful AI research. He highlighted the university’s history in AI and the Centre’s focus on developing more capable, reliable and transparent AI systems across areas such as healthcare, finance, engineering and media.
 
-This is placeholder text and can be replaced with the actual event description.
+President Sir Anthony Finkelstein delivered the keynote address, Adapting to the Scale and Nature of AI Disruption, emphasising the need for universities to lead on technological and societal responses to rapid AI advancement. Senior leaders including Professor Golnaz Badkobeh, Professor Alfredo Pinelli and Professor Baba Sheba also shared their support for the Centre.
 
----
+Senior Researchers of the AI Centre presented short talks. Dr Pranava Madhyastha spoke on generative AI; Professor Artur d’Avila Garcez presented on neurosymbolic AI; Dr Giacomo Tarroni discussed computer vision and medical imaging; Dr Ernesto Jiménez-Ruiz introduced advances in knowledge graphs; Professor Alfredo Pinelli highlighted AI applications in engineering, specifically fluid dynamics; and Professor Andrea Baronchelli addressed AI research in mathematics, focusing on complex systems. 
 
-## Event Images
-
-Below are sample placeholder images:
-
-![Event Photo 1](/images/slider7001400/i2.jpg)
-![Event Photo 2](/images/slider7001400/i2.jpg)
-![Event Photo 3](/images/slider7001400/i2.jpg)
+A poster session and networking reception followed, showcasing current projects and opportunities for collaboration.
 
 ---
 
-## Notes
+## Impressions from the Event
 
-More detailed documentation, photos, and media from the event can be added here once available.
+![Poster Session](/images/slider7001400/PosterSession.jpg)
+![Presiden Sir Anthony Finkelstein and Centre Director Tillman Weyde](/images/slider7001400/TWandAF.jpg)
+![President Sir Anthony Funkelstein delivering the keynote address](/images/slider7001400/AF-keynote.jpg)
+
+---
+
+
