@@ -30,13 +30,8 @@ A poster session and networking reception followed, showcasing current projects 
 
 <img src="/images/slider7001400/PosterSession.jpg" alt="Poster Session" width="800">
 <!-- ![Poster Session](/images/slider7001400/PosterSession.jpg) -->
-
 ---
 
-## Impressions from the Event
-
-
----
 
 
 
