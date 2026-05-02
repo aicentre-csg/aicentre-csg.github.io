@@ -15,6 +15,25 @@
   {% endfor %}
 
   {%- comment -%}
+  Synthesise recent publications (last 90 days) as news items
+  {%- endcomment -%}
+  {% assign ninety_days = 7776000 %}
+  {% assign paper_cutoff = today | minus: ninety_days %}
+  {% for pub in site.data.publist %}
+    {% assign pub_epoch = pub.date | date: '%s' | plus: 0 %}
+    {% if pub_epoch >= paper_cutoff %}
+      {% assign pub_display_date = pub.date | date: "%-d %B, %Y" %}
+      {% if pub.link.url and pub.link.url != "" %}
+        {% assign pub_headline = "New paper: [**" | append: pub.title | append: "**](" | append: pub.link.url | append: ") — " | append: pub.authors %}
+      {% else %}
+        {% assign pub_headline = "New paper: **" | append: pub.title | append: "** — " | append: pub.authors %}
+      {% endif %}
+      {% assign packed = pub_epoch | append: "|||" | append: pub_display_date | append: "|||" | append: pub_headline %}
+      {% assign enriched = enriched | push: packed %}
+    {% endif %}
+  {% endfor %}
+
+  {%- comment -%}
   Sort numerically by epoch
   {%- endcomment -%}
   {% assign sorted = enriched | sort %}
