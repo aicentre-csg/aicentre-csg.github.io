@@ -40,7 +40,7 @@ Synthesise all publications as news items.
 
 {% assign sorted = enriched | sort %}
 
-<h2>Upcoming Events & Announcements</h2>
+<h2>Upcoming</h2>
 {% for entry in sorted %}
   {% assign parts = entry | split: "|||" %}
   {% assign epoch = parts[0] | plus: 0 %}
@@ -58,8 +58,9 @@ Synthesise all publications as news items.
   {% endif %}
 {% endfor %}
 
-<h2>Past News & Announcements</h2>
-{% for entry in sorted | reverse %}
+{% assign sorted_reverse = sorted | reverse %}
+<h2>Past</h2>
+{% for entry in sorted_reverse %}
   {% assign parts = entry | split: "|||" %}
   {% assign epoch = parts[0] | plus: 0 %}
   {% assign date = parts[1] %}
