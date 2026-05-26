@@ -85,12 +85,18 @@ Triggers on push when any `_data/*.yml` content file changes. It runs `post_soci
 2. Set repository variable `SOCIAL_DRY_RUN=true` to log posts without publishing while testing.
 3. Test the newsletter manually: Actions → "Weekly Newsletter Draft" → "Run workflow".
 
-> Note: `social-media.yml` currently triggers on pushes to the `gh-pages` branch — confirm this matches the branch GitHub Pages actually publishes from before relying on it.
+> Note: `social-media.yml` currently triggers on pushes to the `main` branch — confirm this matches the branch GitHub Pages actually publishes from before relying on it.
 
 ## Adding content
 
 1. Edit the relevant file in `_data/` (see the tables above).
 2. Commit and push to the publish branch — GitHub Pages rebuilds automatically.
 3. If automation secrets are configured, a social media post fires for new `_data/` entries.
+
+## Admin editor
+
+An admin editor has been added in `admin/` for live content updates.
+It uses a username/password login and GitHub API commits to update the same `_data/` files.
+Deploy the admin app to Vercel and set the required environment variables.
 
 See [WORKLOG.md](WORKLOG.md) for the development history.
