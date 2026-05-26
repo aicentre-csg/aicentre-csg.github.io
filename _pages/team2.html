@@ -87,7 +87,8 @@ permalink: /People2/
       </div>
     {% endif %}
   {% endfor %}
-  {% if number_printed | modulo: 2 == 1 %}
+  {% assign mod = number_printed | modulo: 2 %}
+  {% if mod == 1 %}
     </div>
   {% endif %}
 
