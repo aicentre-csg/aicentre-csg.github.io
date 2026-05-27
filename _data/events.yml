@@ -9,30 +9,30 @@
 #   link:        (optional) Registration or info URL
 #   description: (optional) Short plain-text description
 
-- date: "20 May, 2026"
-  title: "AI in Healthcare Workshop"
+- date: 20 May, 2026
+  title: AI in Healthcare Workshop
   type: workshop
-  speaker: "Prof. Jane Smith (Imperial College London)"
-  location: "Room AG21, Northampton Square"
-  link: "https://www.city.ac.uk"
-  description: "A half-day workshop exploring AI applications in clinical decision support and medical imaging."
-
-- date: "5 June, 2026"
-  title: "NLP Summer Colloquium"
+  speaker: Prof. Jane Smith (Imperial College London)
+  location: Room AG21, Northampton Square
+  link: https://www.city.ac.uk
+  description: A half-day workshop exploring AI applications in clinical decision support and medical imaging.
+- date: 5 June, 2026
+  title: NLP Summer Colloquium
   type: colloquium
-  location: "ELG09, Drysdale Building"
-  description: "Annual colloquium showcasing NLP research from the group and invited speakers."
-
-- date: "24 June, 2026"
-  title: "NEUROSYMBOLIC AI: From Ontological Foundations to Genomic Discovery"
+  location: ELG09, Drysdale Building
+  description: Annual colloquium showcasing NLP research from the group and invited speakers.
+- date: 12 March, 2026
+  title: Trustworthy AI Seminar Series — Kick-off
   type: seminar
-  location: "City St George's, University of London"
-  description: "A seminar bringing together leading researchers in Neurosymbolic AI, Ontological Engineering, and Computational Genomics to discuss how the integration of deep learning with symbolic reasoning can advance scientific discovery—from foundational theory to the identification of genetic and epigenetic markers of human longevity."
-  flyer: "/assets/data/pdf/seminar-flyer.pdf"
-
-- date: "12 March, 2026"
-  title: "Trustworthy AI Seminar Series — Kick-off"
-  type: seminar
-  speaker: "Prof. Tweyde"
-  location: "Room AG21, Northampton Square"
-  description: "Launch of the new interdisciplinary seminar series on safety and explainability in AI systems."
+  speaker: Prof. Tweyde
+  location: Room AG21, Northampton Square
+  description: Launch of the new interdisciplinary seminar series on safety and explainability in AI systems.
+- date: ' June 24th, 2:30pm'
+  title: Seminar on Neurosymbolic AI
+  type: Seminar
+  speaker: ' Prof. Artur d’Avila Garcez (City), Prof. Alberto Ferreira De Souza (UFES), Prof. Giancarlo Guizzardi (University of Twente), and Dr. Ernesto Jiménez-Ruiz (City)'
+  location: AG07b
+  link: https://staffhub.city.ac.uk/timetabling/rooms-by-building/college-building/ag07b  flyer: /assets/data/pdf/seminar-flyer.pdf  description: >-
+    The AI Centre will be holding a seminar on Neurosymbolic AI. It will include talks from Prof. Artur d’Avila Garcez (City), Prof. Alberto Ferreira
+    De Souza (UFES), Prof. Giancarlo Guizzardi (University of Twente), and Dr. Ernesto Jiménez-Ruiz (City). The seminar will take place on June 24th
+    at 2:30pm.
