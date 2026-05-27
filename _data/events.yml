@@ -32,7 +32,9 @@
   type: Seminar
   speaker: ' Prof. Artur d’Avila Garcez (City), Prof. Alberto Ferreira De Souza (UFES), Prof. Giancarlo Guizzardi (University of Twente), and Dr. Ernesto Jiménez-Ruiz (City)'
   location: AG07b
-  link: https://staffhub.city.ac.uk/timetabling/rooms-by-building/college-building/ag07b  flyer: /assets/data/pdf/seminar-flyer.pdf  description: >-
+  link: https://staffhub.city.ac.uk/timetabling/rooms-by-building/college-building/ag07b
+  flyer: /assets/data/pdf/seminar-flyer.pdf
+  description: >-
     The AI Centre will be holding a seminar on Neurosymbolic AI. It will include talks from Prof. Artur d’Avila Garcez (City), Prof. Alberto Ferreira
     De Souza (UFES), Prof. Giancarlo Guizzardi (University of Twente), and Dr. Ernesto Jiménez-Ruiz (City). The seminar will take place on June 24th
     at 2:30pm.
