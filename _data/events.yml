@@ -23,6 +23,13 @@
   location: "ELG09, Drysdale Building"
   description: "Annual colloquium showcasing NLP research from the group and invited speakers."
 
+- date: "24 June, 2026"
+  title: "NEUROSYMBOLIC AI: From Ontological Foundations to Genomic Discovery"
+  type: seminar
+  location: "City St George's, University of London"
+  description: "A seminar bringing together leading researchers in Neurosymbolic AI, Ontological Engineering, and Computational Genomics to discuss how the integration of deep learning with symbolic reasoning can advance scientific discovery—from foundational theory to the identification of genetic and epigenetic markers of human longevity."
+  flyer: "/assets/data/pdf/seminar-flyer.pdf"
+
 - date: "12 March, 2026"
   title: "Trustworthy AI Seminar Series — Kick-off"
   type: seminar
