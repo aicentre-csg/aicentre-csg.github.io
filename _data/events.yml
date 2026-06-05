@@ -22,16 +22,18 @@
   location: ELG09, Drysdale Building
   description: Annual colloquium showcasing NLP research from the group and invited speakers.
 - date: 15 June, 2026 
-  date:        (required) "DD Month, YYYY"  — start date  
+  end_date: 18 June, 2026
   title: Fleming Initiative Study Group on antimicrobial resistance - Outsmarting Bugs: Making the numbers add up
   type: workshop
+  speaker: Dr Paul Wilmott
   location: Imperial College London, South Kensington Campus
+  link: https://qualtricsxmq87dzrns2.qualtrics.com/jfe/form/SV_6QXlnu7vCjQvle6
   description: Would you invest in a product that may be withdrawn from the market in under six years? Would you commit time and resources to developing it? For
     many antibiotics, this is the reality. <br><br> At City St George’s, Prof Raheelah Ahmad and Dr Tillman Weyde are working on policy approaches to antimicrobial resistance as part of the Fleming
-    Initiative at Imperial College London. We invite students and researchers with a mathematical background to 
-    <a href='https://qualtricsxmq87dzrns2.qualtrics.com/jfe/form/SV_6QXlnu7vCjQvle6'>register for the Fleming Initiative
-    Study Group</a>. <br><br> If selected, you will be invited to join Outsmarting Bugs: Making the numbers add up, a study group and networking event led by Dr Paul Wilmott,
+    Initiative at Imperial College London. We invite students and researchers with a mathematical background to register for the Fleming Initiative
+    Study Group. <br><br> If selected, you will be invited to join Outsmarting Bugs: Making the numbers add up, a study group and networking event led by Dr Paul Wilmott,
     taking place from 15–18 June at Imperial College London. 
+  
 - date: ' June 24th, 2:30pm'
   title: Seminar on Neurosymbolic AI
   type: Seminar
