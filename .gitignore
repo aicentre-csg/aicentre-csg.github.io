@@ -3,3 +3,6 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 Gemfile.lock
+admin/.env.local
+admin/node_modules/
+admin/.next/

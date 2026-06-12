@@ -3,7 +3,7 @@ name: Post to Social Media
 on:
   push:
     branches:
-      - gh-pages
+      - main
     paths:
       - "_data/events.yml"
       - "_data/talks.yml"

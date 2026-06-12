@@ -1,7 +1,7 @@
 # Events data file
 # Fields:
-#   date:        (required) ISO 8601 — "YYYY-MM-DD" or "YYYY-MM-DDTHH:MM:SS+HH:MM"
-#   end_date:    (optional) ISO 8601 — end date for multi-day events
+#   date:        (required) "DD Month, YYYY"  — start date
+#   end_date:    (optional) "DD Month, YYYY"  — end date for multi-day events
 #   title:       (required) Event title
 #   type:        (required) seminar | workshop | conference | colloquium | other
 #   speaker:     (optional) Speaker name(s)
@@ -9,23 +9,72 @@
 #   link:        (optional) Registration or info URL
 #   description: (optional) Short plain-text description
 
-- date: "2026-05-20"
-  title: "AI in Healthcare Workshop"
+- date: 20 May, 2026
+  title: AI in Healthcare Workshop
   type: workshop
-  speaker: "Prof. Jane Smith (Imperial College London)"
-  location: "Room AG21, Northampton Square"
-  link: "https://www.city.ac.uk"
-  description: "A half-day workshop exploring AI applications in clinical decision support and medical imaging."
+  speaker: Prof. Jane Smith (Imperial College London)
+  location: Room AG21, Northampton Square
+  link: https://www.city.ac.uk
+  description: A half-day workshop exploring AI applications in clinical decision support and medical imaging.
+- date: 24 June, 2026
+  title: Seminar on Neurosymbolic AI
+  type: Seminar
+  speaker: ' Prof. Artur d’Avila Garcez (City), Prof. Alberto Ferreira De Souza (UFES), Prof. Giancarlo Guizzardi (University of Twente), and Dr. Ernesto Jiménez-Ruiz (City)'
+  location: AG07b
+  link: https://staffhub.city.ac.uk/timetabling/rooms-by-building/college-building/ag07b
+  flyer: /assets/data/pdf/seminar-flyer.pdf
+  description: >-
+    The AI Centre will be holding a seminar on Neurosymbolic AI. It will include talks from Prof. Artur d’Avila Garcez (City), Prof. Alberto Ferreira
+    De Souza (UFES), Prof. Giancarlo Guizzardi (University of Twente), and Dr. Ernesto Jiménez-Ruiz (City). The seminar will take place on June 24th
+    at 2:30pm.
+- date: 15 June, 2026
+  title: 'Fleming Initiative Study Group on antimicrobial resistance - Outsmarting Bugs: Making the numbers add up'
+  type: workshop
+  speaker: Dr Paul Wilmott
+  location: Imperial College London, South Kensington Campus
+  link: https://qualtricsxmq87dzrns2.qualtrics.com/jfe/form/SV_6QXlnu7vCjQvle6
+  description: >-
+    Would you invest in a product that may be withdrawn from the market in under six years? Would you commit time and resources to developing it? For
+    antibiotics, this is the reality. 
 
-- date: "2026-06-05"
-  title: "NLP Summer Colloquium"
-  type: colloquium
-  location: "ELG09, Drysdale Building"
-  description: "Annual colloquium showcasing NLP research from the group and invited speakers."
 
-- date: "2026-03-12"
-  title: "Trustworthy AI Seminar Series — Kick-off"
+    At City St George’s, Prof Raheelah Ahmad and Dr Tillman Weyde are working on policy approaches to antimicrobial resistance as part of the Fleming
+    Initiative at Imperial College London. We invite students and researchers with a mathematical background to register for the Fleming Initiative
+    Study Group.
+        
+    If selected, you will be invited to join Outsmarting Bugs: Making the numbers add up, a study group and networking event led by Dr Paul Wilmott,
+    taking place from 15–18 June at Imperial College London. 
+- date: 22 June, 2026
+  title: AI Research Day
+  type: Workshop
+  location: B200
+  link: https://www.citystgeorges.ac.uk/news-and-events/events/2026/june/ai-research-day
+  description: >-
+    The programme will include a mix of leadership framing, research talk, short lightning talks and panel sessions from Schools, centres, doctoral
+    researchers and enabling teams, spotlights on the AI Research Centre and the Institute for Creativity and AI, and structured School showcases with
+    Q&A.
+- date: 23 June, 2026 18:00 BST
+  title: >-
+    Shaping Tomorrow - The Future of Data Science in the Age of AI.  Short talks and discussion with academics and practitioner/alunmi of the MSc in
+    Data Science
   type: seminar
-  speaker: "Prof. Tweyde"
-  location: "Room AG21, Northampton Square"
-  description: "Launch of the new interdisciplinary seminar series on safety and explainability in AI systems."
+  speaker: Dr Tilman Weyde, Prof. Artur Garcez, Aishwarya Shekar
+  location: Online
+  link: https://www.citystgeorges.ac.uk/news-and-events/events/2026/june/the-future-of-data-science-in-the-age-of-ai
+  description: >-
+    In the age of artificial intelligence, the world as we know it is evolving, and we’re looking towards a future where AI will increasingly be
+    working alongside people, opening up new opportunities for all generations. So, how can data scientists help shape the future and will AI replace
+    Human Data Scientists?
+
+
+    Hosted by Dr Tillman Weyde, Reader in the Department of Computer Science at City St George's, this event will discover the evolving role of
+    artificial intelligence and the future of data science. The event will include expert talks from an academic and an industry expert. From
+    academia, Prof Artur Garcez, Professor of Computer Science at City St George's, will discuss data science, AI, machine learning and the
+    disruption, productivity and big skills reset surrounding those topics.
+
+
+    Following the two introductory talks, there will be a panel discussion. This event will give participants an excellent opportunity to engage in
+    expert talks and thought-provoking conversation with alumni, prospective students, students and academics.
+
+
+    The panel discussion will be followed by a Q&A, where you are invited to pose your own questions and share your views.
