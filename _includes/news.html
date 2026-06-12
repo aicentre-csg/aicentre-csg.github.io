@@ -15,7 +15,7 @@
     {% else %}
       {% assign display_date = item.date | date: "%-d %B %Y" %}
     {% endif %}
-    {% assign packed = epoch | append: "|||" | append: display_date | append: "|||" | append: item.headline %}
+    {% assign packed = epoch | append: "|||" | append: display_date | append: "|||" | append: item.headline | append: "|||" | append: item.url %}
     {% assign enriched = enriched | push: packed %}
   {% endfor %}
 
@@ -57,6 +57,9 @@
       <p>
         {{ date }}<br>
         {{ headline | markdownify }}
+        {% if parts[3] and parts[3] != "" %}
+          <a href="{{ parts[3] }}" target="_blank" rel="noopener">Read more</a>
+        {% endif %}
       </p>
     {% endif %}
   {% endfor %}

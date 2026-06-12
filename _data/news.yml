@@ -1,3 +1,9 @@
+# News data file
+# Fields:
+#   date:     (required) ISO 8601 — "YYYY-MM-DD" or "YYYY-MM-DDTHH:MM:SS+HH:MM"
+#   headline: (required) Markdown/HTML text of the news item
+#   url:      (optional) Link rendered as a "Read more" button after the headline
+
 - date: "2026-05-01"
   headline: >-
     **Prominent speakers at the AI Centre:** The AI Centre has welcomed leading international researchers including Moshe Y. Vardi, Clark Barrett, and

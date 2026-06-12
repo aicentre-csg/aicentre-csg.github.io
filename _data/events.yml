@@ -7,6 +7,7 @@
 #   speaker:     (optional) Speaker name(s)
 #   location:    (optional) Room / venue
 #   link:        (optional) Registration or info URL
+#   flyer:       (optional) Site-relative path to a flyer PDF, e.g. /assets/data/pdf/seminar-flyer.pdf
 #   description: (optional) Short plain-text description
 
 - date: "2026-05-20"

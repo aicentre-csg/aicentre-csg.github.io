@@ -24,7 +24,7 @@ Convert all YAML date strings ("3 November, 2025") into epoch seconds.
   {% else %}
     {% assign display_date = item.date | date: "%-d %B %Y" %}
   {% endif %}
-  {% assign packed = epoch | append: "|||" | append: display_date | append: "|||" | append: item.headline %}
+  {% assign packed = epoch | append: "|||" | append: display_date | append: "|||" | append: item.headline | append: "|||" | append: item.url %}
   {% assign enriched = enriched | push: packed %}
 {% endfor %}
 
@@ -59,6 +59,9 @@ Synthesise all publications as news items.
       <div style="font-size: 1.05em;">
         {{ headline | markdownify }}
       </div>
+      {% if parts[3] and parts[3] != "" %}
+        <a href="{{ parts[3] }}" class="btn btn-xs btn-default" target="_blank" rel="noopener">Read more</a>
+      {% endif %}
     </div>
   {% endif %}
 {% endfor %}
@@ -78,6 +81,9 @@ Synthesise all publications as news items.
       <div style="font-size: 1.05em;">
         {{ headline | markdownify }}
       </div>
+      {% if parts[3] and parts[3] != "" %}
+        <a href="{{ parts[3] }}" class="btn btn-xs btn-default" target="_blank" rel="noopener">Read more</a>
+      {% endif %}
     </div>
   {% endif %}
 {% endfor %}

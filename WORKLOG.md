@@ -21,6 +21,28 @@ Development history of the AI Centre@CSG website.
 
 Detailed entries below, newest first.
 
+## 2026-06-12 — External links open in new tab
+
+- Added a script in `_includes/footer.html` that, on page load, sets
+  `target="_blank"` + `rel="noopener noreferrer"` on every link whose
+  hostname differs from the site's. Covers template links, markdownified
+  content, and inline `<a>` tags in data files uniformly. Relative,
+  same-host, `mailto:` and anchor links are left alone. Footer is in the
+  `default` layout, which all other layouts extend, so this applies
+  site-wide.
+
+## 2026-06-12 — News URL field and event flyer links
+
+- `_data/news.yml` entries now support an optional `url:` field, rendered
+  as a "Read more" link after the headline on the news page and the
+  homepage sidebar.
+- `_data/events.yml` entries support an optional `flyer:` field
+  (site-relative path to a PDF), rendered as a "Flyer" button on the
+  events page.
+- Moved `seminar-flyer.pdf` from `_data/pdf/` to `assets/data/pdf/` —
+  Jekyll does not publish underscore directories, so the old path never
+  appeared in the built site.
+
 ## 2026-06-12 — ISO 8601 date migration
 
 - All `_data/*.yml` dates now use ISO 8601 (`YYYY-MM-DD`, or
