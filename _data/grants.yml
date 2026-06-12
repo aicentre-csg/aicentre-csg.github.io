@@ -6,20 +6,20 @@
 #   amount:             (optional) Award amount as string, e.g. "£450,000"
 #   pi:                 (required) Principal Investigator name
 #   co_investigators:   (optional) Comma-separated co-investigator names
-#   start_date:         (required) "YYYY/MM/DD"
-#   end_date:           (required) "YYYY/MM/DD" — used to determine active vs completed
+#   start_date:         (required) ISO 8601 — "YYYY-MM-DD"
+#   end_date:           (required) ISO 8601 — "YYYY-MM-DD" — used to determine active vs completed
 #   description:        (optional) Short project description
 #   link:               (optional) Project webpage URL
 #   status:             (required) active | completed
 
 - title: "Policy Analysis For Antimicrobial Resistance Targeted Action (SPAARTA)"
   funder: "GSK"
-  amount: "£2.200,000"
+  amount: "£2,200,000"
   pi: "Prof. Ahmad"
   co_investigators: "Dr. Weyde, Dr. Hirani"
   start_date: "2026-03-01"
   end_date: "2030-02-28"
-  description: "Inform policy to address antimicrobial resistance the international context and globally in collaboration with GSK to address Grand Challenges and the UNGA targets for addressing AMR."
+  description: "Inform policy to address antimicrobial resistance in the international context and globally, in collaboration with GSK, to address Grand Challenges and the UNGA targets for addressing AMR."
   status: active
 
 - title: "New Directions in Digital Jazz Studies"
@@ -28,6 +28,6 @@
   pi: "Dr. Weyde"
   start_date: "2021-02-13"
   end_date: "2024-02-13"
-  link: https://mirg.city.ac.uk/jazzdap1
+  link: "https://mirg.city.ac.uk/jazzdap1"
   description: "New Directions in Digital Jazz Studies: Music Information Retrieval and AI Support for Jazz Scholarship in Digital Archives."
   status: completed
