@@ -6,8 +6,8 @@
 #   amount:             (optional) Award amount as string, e.g. "£450,000"
 #   pi:                 (required) Principal Investigator name
 #   co_investigators:   (optional) Comma-separated co-investigator names
-#   start_date:         (required) ISO 8601 — "YYYY-MM-DD"
-#   end_date:           (required) ISO 8601 — "YYYY-MM-DD" — used to determine active vs completed
+#   start_date:         (required) "YYYY/MM/DD"
+#   end_date:           (required) "YYYY/MM/DD" — used to determine active vs completed
 #   description:        (optional) Short project description
 #   link:               (optional) Project webpage URL
 #   status:             (required) active | completed
