@@ -23,7 +23,7 @@ permalink: /events.html
   {% else %}
     {% assign display_date = item.date | date: "%-d %B %Y" %}
   {% endif %}
-  {% assign packed = epoch | append: "|||" | append: display_date | append: "|||" | append: item.title | append: "|||" | append: item.type | append: "|||" | append: item.speaker | append: "|||" | append: item.location | append: "|||" | append: item.link | append: "|||" | append: item.description %}
+  {% assign packed = epoch | append: "|||" | append: display_date | append: "|||" | append: item.title | append: "|||" | append: item.type | append: "|||" | append: item.speaker | append: "|||" | append: item.location | append: "|||" | append: item.link | append: "|||" | append: item.description | append: "|||" | append: item.flyer %}
   {% assign enriched = enriched | push: packed %}
 {% endfor %}
 
@@ -57,6 +57,9 @@ permalink: /events.html
       {% if parts[6] and parts[6] != "" %}
         <a href="{{ parts[6] }}" class="btn btn-xs btn-primary" target="_blank" rel="noopener">More info</a>
       {% endif %}
+      {% if parts[8] and parts[8] != "" %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ parts[8] }}" class="btn btn-xs btn-info" target="_blank" rel="noopener">Flyer</a>
+      {% endif %}
     </div>
   {% endif %}
 {% endfor %}
@@ -88,6 +91,9 @@ permalink: /events.html
       {% endif %}
       {% if parts[6] and parts[6] != "" %}
         <a href="{{ parts[6] }}" class="btn btn-xs btn-default" target="_blank" rel="noopener">More info</a>
+      {% endif %}
+      {% if parts[8] and parts[8] != "" %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ parts[8] }}" class="btn btn-xs btn-default" target="_blank" rel="noopener">Flyer</a>
       {% endif %}
     </div>
   {% endif %}
