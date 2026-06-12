@@ -17,8 +17,13 @@ permalink: /events.html
 {% assign enriched = "" | split: "" %}
 
 {% for item in site.data.events %}
-  {% assign epoch = item.date | date_to_xmlschema | date: '%s' | plus: 0 %}
-  {% assign packed = epoch | append: "|||" | append: item.date | append: "|||" | append: item.title | append: "|||" | append: item.type | append: "|||" | append: item.speaker | append: "|||" | append: item.location | append: "|||" | append: item.link | append: "|||" | append: item.description %}
+  {% assign epoch = item.date | date: '%s' | plus: 0 %}
+  {% if item.date contains "T" %}
+    {% assign display_date = item.date | date: "%-d %B %Y, %H:%M" %}
+  {% else %}
+    {% assign display_date = item.date | date: "%-d %B %Y" %}
+  {% endif %}
+  {% assign packed = epoch | append: "|||" | append: display_date | append: "|||" | append: item.title | append: "|||" | append: item.type | append: "|||" | append: item.speaker | append: "|||" | append: item.location | append: "|||" | append: item.link | append: "|||" | append: item.description %}
   {% assign enriched = enriched | push: packed %}
 {% endfor %}
 

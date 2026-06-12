@@ -1,6 +1,6 @@
 # Talks data file
 # Fields:
-#   date:        (required) "DD Month, YYYY"
+#   date:        (required) ISO 8601 — "YYYY-MM-DD" or "YYYY-MM-DDTHH:MM:SS+HH:MM"
 #   title:       (required) Talk title
 #   speaker:     (required) Speaker name
 #   affiliation: (optional) Speaker's institution
@@ -9,14 +9,14 @@
 #   video_link:  (optional) URL to recording
 #   host:        (optional) Host faculty member
 
-- date: "28 April, 2026"
+- date: "2026-04-28"
   title: "Attention Mechanisms Beyond Transformers"
   speaker: "Dr. Alice Brown"
   affiliation: "UCL"
   abstract: "This talk surveys recent work on attention mechanisms outside the standard Transformer architecture, including state-space models and linear attention variants."
   host: "Prof. Tweyde"
 
-- date: "10 February, 2026"
+- date: "2026-02-10"
   title: "Reinforcement Learning from Human Feedback: Theory and Practice"
   speaker: "Dr. Marco Rossi"
   affiliation: "DeepMind"

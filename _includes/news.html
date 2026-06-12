@@ -9,8 +9,13 @@
   Convert each date string ("3 November, 2025") → epoch seconds
   {%- endcomment -%}
   {% for item in all_items %}
-    {% assign epoch = item.date | date_to_xmlschema | date: '%s' | plus: 0 %}
-    {% assign packed = epoch | append: "|||" | append: item.date | append: "|||" | append: item.headline %}
+    {% assign epoch = item.date | date: '%s' | plus: 0 %}
+    {% if item.date contains "T" %}
+      {% assign display_date = item.date | date: "%-d %B %Y, %H:%M" %}
+    {% else %}
+      {% assign display_date = item.date | date: "%-d %B %Y" %}
+    {% endif %}
+    {% assign packed = epoch | append: "|||" | append: display_date | append: "|||" | append: item.headline %}
     {% assign enriched = enriched | push: packed %}
   {% endfor %}
 
@@ -22,7 +27,7 @@
   {% for pub in site.data.publist %}
     {% assign pub_epoch = pub.date | date: '%s' | plus: 0 %}
     {% if pub_epoch >= paper_cutoff %}
-      {% assign pub_display_date = pub.date | date: "%-d %B, %Y" %}
+      {% assign pub_display_date = pub.date | date: "%-d %B %Y" %}
       {% if pub.link.url and pub.link.url != "" %}
         {% assign pub_headline = "New paper: [**" | append: pub.title | append: "**](" | append: pub.link.url | append: ") — " | append: pub.authors %}
       {% else %}
