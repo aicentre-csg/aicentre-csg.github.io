@@ -21,6 +21,13 @@ Development history of the AI Centre@CSG website.
 
 Detailed entries below, newest first.
 
+## 2026-06-12 — Events / Talks sort order fix
+
+- `_pages/events.html` and `_pages/talks.html` sorted descending, so the
+  Upcoming section listed the farthest-future entry first instead of the
+  next one. Now sort ascending for Upcoming and reuse `sorted_reverse`
+  for Past — same pattern as `_pages/allnews.html`.
+
 ## 2026-05-22 — News page fixes
 
 - Fixed a Liquid bug in `_pages/allnews.html`: the **Past** section used

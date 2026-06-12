@@ -22,7 +22,8 @@ permalink: /talks.html
   {% assign enriched = enriched | push: packed %}
 {% endfor %}
 
-{% assign sorted = enriched | sort | reverse %}
+{% assign sorted = enriched | sort %}
+{% assign sorted_reverse = sorted | reverse %}
 
 <h2>Upcoming Talks</h2>
 {% assign has_upcoming = false %}
@@ -50,7 +51,7 @@ permalink: /talks.html
 
 <h2>Past Talks</h2>
 {% assign has_past = false %}
-{% for entry in sorted %}
+{% for entry in sorted_reverse %}
   {% assign parts = entry | split: "|||" %}
   {% assign epoch = parts[0] | plus: 0 %}
   {% if epoch < future_cutoff %}
