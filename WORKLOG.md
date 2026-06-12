@@ -44,10 +44,19 @@ Detailed entries below, newest first.
   next one. Now sort ascending for Upcoming and reuse `sorted_reverse`
   for Past — same pattern as `_pages/allnews.html`.
 
+## 2026-05-26 — Build verification and automation update
+
+- Fixed a Liquid syntax bug in `_pages/team2.html` by moving the modulo comparison into a separate assigned variable.
+- Escaped raw Liquid markup in this `WORKLOG.md` entry so the file itself can be parsed safely by Jekyll.
+- Updated `.github/workflows/social-media.yml` to trigger on the repository’s actual default branch `main` instead of `gh-pages`.
+- Added a new admin editor in `admin/` to update news, events, talks, grants, and publications via GitHub commits.
+- Verified `bundle exec jekyll build` now completes successfully, confirming the current site generation path is working.
+- Remaining work: configure automation secrets and manually test the newsletter and social media workflows.
+
 ## 2026-05-22 — News page fixes
 
 - Fixed a Liquid bug in `_pages/allnews.html`: the **Past** section used
-  `{% for entry in sorted | reverse %}`, but Liquid cannot apply a filter
+  {% raw %}`{% for entry in sorted | reverse %}`{% endraw %}, but Liquid cannot apply a filter
   inside a `for` tag, so entries were iterating in unreversed order. Now
   `sorted_reverse` is assigned first.
 - Shortened the **News** nav label (was "News & Events") and the page's
