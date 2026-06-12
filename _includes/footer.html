@@ -17,3 +17,18 @@
 <!-- JS (Bootstrap & jQuery) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+
+<!-- Open all external links in a new tab -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var here = window.location.hostname;
+    var links = document.querySelectorAll('a[href]');
+    for (var i = 0; i < links.length; i++) {
+      var a = links[i];
+      if (a.hostname && a.hostname !== here) {
+        a.setAttribute('target', '_blank');
+        a.setAttribute('rel', 'noopener noreferrer');
+      }
+    }
+  });
+</script>

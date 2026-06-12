@@ -21,6 +21,16 @@ Development history of the AI Centre@CSG website.
 
 Detailed entries below, newest first.
 
+## 2026-06-12 — External links open in new tab
+
+- Added a script in `_includes/footer.html` that, on page load, sets
+  `target="_blank"` + `rel="noopener noreferrer"` on every link whose
+  hostname differs from the site's. Covers template links, markdownified
+  content, and inline `<a>` tags in data files uniformly. Relative,
+  same-host, `mailto:` and anchor links are left alone. Footer is in the
+  `default` layout, which all other layouts extend, so this applies
+  site-wide.
+
 ## 2026-06-12 — News URL field and event flyer links
 
 - `_data/news.yml` entries now support an optional `url:` field, rendered
