@@ -1,7 +1,7 @@
 # Events data file
 # Fields:
-#   date:        (required) "DD Month, YYYY"  — start date
-#   end_date:    (optional) "DD Month, YYYY"  — end date for multi-day events
+#   date:        (required) ISO 8601 — "YYYY-MM-DD" or "YYYY-MM-DDTHH:MM:SS+HH:MM"
+#   end_date:    (optional) ISO 8601 — end date for multi-day events
 #   title:       (required) Event title
 #   type:        (required) seminar | workshop | conference | colloquium | other
 #   speaker:     (optional) Speaker name(s)
@@ -9,14 +9,14 @@
 #   link:        (optional) Registration or info URL
 #   description: (optional) Short plain-text description
 
-- date: 20 May, 2026
+- date: "2026-05-20"
   title: AI in Healthcare Workshop
   type: workshop
   speaker: Prof. Jane Smith (Imperial College London)
   location: Room AG21, Northampton Square
   link: https://www.city.ac.uk
   description: A half-day workshop exploring AI applications in clinical decision support and medical imaging.
-- date: 24 June, 2026
+- date: "2026-06-24T14:30:00+01:00"
   title: Seminar on Neurosymbolic AI
   type: Seminar
   speaker: ' Prof. Artur d’Avila Garcez (City), Prof. Alberto Ferreira De Souza (UFES), Prof. Giancarlo Guizzardi (University of Twente), and Dr. Ernesto Jiménez-Ruiz (City)'
@@ -27,7 +27,7 @@
     The AI Centre will be holding a seminar on Neurosymbolic AI. It will include talks from Prof. Artur d’Avila Garcez (City), Prof. Alberto Ferreira
     De Souza (UFES), Prof. Giancarlo Guizzardi (University of Twente), and Dr. Ernesto Jiménez-Ruiz (City). The seminar will take place on June 24th
     at 2:30pm.
-- date: 15 June, 2026
+- date: "2026-06-15"
   title: 'Fleming Initiative Study Group on antimicrobial resistance - Outsmarting Bugs: Making the numbers add up'
   type: workshop
   speaker: Dr Paul Wilmott
@@ -44,7 +44,7 @@
         
     If selected, you will be invited to join Outsmarting Bugs: Making the numbers add up, a study group and networking event led by Dr Paul Wilmott,
     taking place from 15–18 June at Imperial College London. 
-- date: 22 June, 2026
+- date: "2026-06-22"
   title: AI Research Day
   type: Workshop
   location: B200
@@ -53,7 +53,7 @@
     The programme will include a mix of leadership framing, research talk, short lightning talks and panel sessions from Schools, centres, doctoral
     researchers and enabling teams, spotlights on the AI Research Centre and the Institute for Creativity and AI, and structured School showcases with
     Q&A.
-- date: 23 June, 2026 18:00 BST
+- date: "2026-06-23T18:00:00+01:00"
   title: >-
     Shaping Tomorrow - The Future of Data Science in the Age of AI.  Short talks and discussion with academics and practitioner/alunmi of the MSc in
     Data Science

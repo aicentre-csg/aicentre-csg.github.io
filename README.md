@@ -59,8 +59,8 @@ The page splits into **Upcoming** and **Past** around today's date. `_includes/n
 
 ## Templating conventions
 
-- **Date formats:** `news.yml`, `events.yml`, `talks.yml` use `"DD Month, YYYY"` (e.g. `"20 May, 2026"`); `publist.yml` and `grants.yml` use `"YYYY/MM/DD"`.
-- **Epoch-sort pattern:** pages that mix and sort dated entries convert each date to epoch seconds, pack the fields as `epoch|||date|||headline`, sort the strings (the epoch prefix gives correct chronological order), then split them back for display.
+- **Date format:** ISO 8601 in all data files. Use `"YYYY-MM-DD"` for a date, or `"YYYY-MM-DDTHH:MM:SS+HH:MM"` when time matters (e.g. `"2026-05-20T14:30:00+01:00"`). Always quoted so YAML keeps the value as a string. Templates render dates as `10 July 2026`, and as `10 July 2026, 14:30` when the value carries a time component.
+- **Epoch-sort pattern:** pages that mix and sort dated entries convert each date to epoch seconds, pack the fields as `epoch|||display_date|||headline`, sort the strings (the epoch prefix gives correct chronological order), then split them back for display.
 - **Upcoming vs. past:** a 1-day grace buffer (`grace = 86400`) keeps same-day items in the Upcoming section.
 
 ## Automation

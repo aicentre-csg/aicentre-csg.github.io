@@ -21,6 +21,29 @@ Development history of the AI Centre@CSG website.
 
 Detailed entries below, newest first.
 
+## 2026-06-12 — ISO 8601 date migration
+
+- All `_data/*.yml` dates now use ISO 8601 (`YYYY-MM-DD`, or
+  `YYYY-MM-DDTHH:MM:SS+HH:MM` when a time is needed).
+  - `news.yml`, `events.yml`, `talks.yml`: converted from
+    `"D Month, YYYY"`.
+  - `grants.yml`, `publist.yml`: `YYYY/MM/DD` → `YYYY-MM-DD`.
+- Templates now parse dates directly with `| date: '%s'`; the
+  `date_to_xmlschema` round-trip is gone.
+- Display format unified to `%-d %B %Y` (e.g. `10 July 2026`). When a
+  data value contains `T` it is rendered with time appended
+  (`10 July 2026, 14:30`).
+- Files touched: `_pages/events.html`, `_pages/talks.html`,
+  `_pages/allnews.html`, `_includes/news.html`,
+  `_includes/events_upcoming.html`.
+
+## 2026-06-12 — Events / Talks sort order fix
+
+- `_pages/events.html` and `_pages/talks.html` sorted descending, so the
+  Upcoming section listed the farthest-future entry first instead of the
+  next one. Now sort ascending for Upcoming and reuse `sorted_reverse`
+  for Past — same pattern as `_pages/allnews.html`.
+
 ## 2026-05-26 — Build verification and automation update
 
 - Fixed a Liquid syntax bug in `_pages/team2.html` by moving the modulo comparison into a separate assigned variable.

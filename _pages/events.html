@@ -17,12 +17,18 @@ permalink: /events.html
 {% assign enriched = "" | split: "" %}
 
 {% for item in site.data.events %}
-  {% assign epoch = item.date | date_to_xmlschema | date: '%s' | plus: 0 %}
-  {% assign packed = epoch | append: "|||" | append: item.date | append: "|||" | append: item.title | append: "|||" | append: item.type | append: "|||" | append: item.speaker | append: "|||" | append: item.location | append: "|||" | append: item.link | append: "|||" | append: item.description %}
+  {% assign epoch = item.date | date: '%s' | plus: 0 %}
+  {% if item.date contains "T" %}
+    {% assign display_date = item.date | date: "%-d %B %Y, %H:%M" %}
+  {% else %}
+    {% assign display_date = item.date | date: "%-d %B %Y" %}
+  {% endif %}
+  {% assign packed = epoch | append: "|||" | append: display_date | append: "|||" | append: item.title | append: "|||" | append: item.type | append: "|||" | append: item.speaker | append: "|||" | append: item.location | append: "|||" | append: item.link | append: "|||" | append: item.description %}
   {% assign enriched = enriched | push: packed %}
 {% endfor %}
 
-{% assign sorted = enriched | sort | reverse %}
+{% assign sorted = enriched | sort %}
+{% assign sorted_reverse = sorted | reverse %}
 
 <h2>Upcoming Events</h2>
 {% assign has_upcoming = false %}
@@ -58,7 +64,7 @@ permalink: /events.html
 
 <h2>Past Events</h2>
 {% assign has_past = false %}
-{% for entry in sorted %}
+{% for entry in sorted_reverse %}
   {% assign parts = entry | split: "|||" %}
   {% assign epoch = parts[0] | plus: 0 %}
   {% if epoch < future_cutoff %}
