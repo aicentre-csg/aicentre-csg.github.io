@@ -3,7 +3,7 @@
   description: >
     We investigate properties of the bijective Burrows-Wheeler transform (BBWT), showing relationships between bidirectional macro schemes and maximal character runs. We also introduce new insights into BBWT vs standard BWT with theoretical separations.
   authors: "Golnaz Badkobeh, Hideo Bannai, Dominik Köppl"
-  date: "2024-09-19"
+  date: "2024/09/19"
   book: "International Symposium on String Processing and Information Retrieval"
   pages: "16–25"
   publisher: "Springer Nature Switzerland"
@@ -17,7 +17,7 @@
   description: >
     We propose ORSA-T, combining Slot Attention and Transformer aggregation to iteratively improve object-centric scene representation learning from partial multi-view inputs.
   authors: "H. Placek, C. H. T. Child, T. Weyde"
-  date: "2025-09-16"
+  date: "2025/09/16"
   book: "International Joint Conference on Neural Networks 2025"
   publisher: "IEEE"
   link:
@@ -30,7 +30,7 @@
   description: >
     RAG and fine-tuning are common for LLM quality improvement, but under constrained conditions (e.g. LM-KBC Challenge), we investigate generation, quality assurance, and response parsing.
   authors: "Alex Clay, Ernesto Jiménez-Ruiz, Pranava Madhyastha"
-  date: "2025-09-10"
+  date: "2025/09/10"
   conference: "KBC-LM Workshop and LM-KBC Challenge at ISWC 2025"
   link:
     url: "https://arxiv.org/abs/2509.08903"
@@ -42,23 +42,16 @@
   description: >
     We present a dataset for chart question answering based on visualization notebooks, featuring real-world multi-view charts and analytical narratives for multimodal LLMs.
   authors: "Maeve Hutchinson, Radu Jianu, Aidan Slingsby, Jo Wood, Pranava Madhyastha"
-  date: "2025-07-02"
+  date: "2025/07/02"
   journal: "arXiv preprint arXiv:2507.01627"
   link:
     url: "https://arxiv.org/abs/2507.01627"
     display: "[PDF] from arxiv.org"
   highlight: 1
 
-- title: ' Deep Learning Agents and the Emergence of Compositional Languages: Approaches, Inductive Biases and Measurement'
-  authors: Nicholas Bailey, Chris Child, Tillman Weyde
-  journal: Journal of Artificial Intelligence Research (JAIR)
-  year: '2026'
-  volume: '86'
-  pages: 6:1-6:43
-  doi: 'https://doi.org/10.1613/jair.1.17302 '
-  link: https://jair.org/index.php/jair/article/view/17302/27309
-  abstract: >-
-    Compositional symbol-forming and symbol-relating behaviors in deep learning or neuro-symbolic systems have been repeatedly recommended as part of a
-    solution to the shortcomings of current state-of-the-art artificial intelligence. Studying how compositional languages can emerge between tabula
-    rasa deep learning agents may help us understand how to make artificial neural networks represent unstructured, continuous input data in terms of
-    combinations of discrete symbols.
+- title: test
+  authors: test
+  journal: test
+  year: '2412'
+  volume: '12'
+  pages: '12'
