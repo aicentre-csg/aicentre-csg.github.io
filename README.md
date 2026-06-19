@@ -93,10 +93,113 @@ Triggers on push when any `_data/*.yml` content file changes. It runs `post_soci
 2. Commit and push to the publish branch — GitHub Pages rebuilds automatically.
 3. If automation secrets are configured, a social media post fires for new `_data/` entries.
 
-## Admin editor
+## Admin Editor Workflow
 
-An admin editor has been added in `admin/` for live content updates.
-It uses a username/password login and GitHub API commits to update the same `_data/` files.
-Deploy the admin app to Vercel and set the required environment variables.
+Updated: 2026-06-19
 
-See [WORKLOG.md](WORKLOG.md) for the development history.
+The admin editor now lives in the `admin/` submodule, which points to:
+
+- Admin app repo: `https://github.com/SyedHuq28/ai-csg-admin.git`
+- Current admin app commit recorded by this site repo: `fa57f1d`
+- Admin Vercel app: `https://ai-csg.vercel.app`
+
+The admin app is a small Next.js app deployed separately from the GitHub Pages site. It updates the website by committing to YAML files in the configured GitHub repo, opening or updating one shared pull request, and then allowing a reviewer to publish or reject it.
+
+### Roles and URLs
+
+| Role | URL | Purpose |
+|---|---|---|
+| Content admin | `https://ai-csg.vercel.app/dashboard` | Add content, preview the submitted entry, then Confirm or Cancel |
+| PR reviewer | `https://ai-csg.vercel.app/review` | Review confirmed changes, preview them, approve and publish, reject, or open GitHub |
+
+There are two separate login pairs:
+
+- Dashboard login: `ADMIN_USERNAME` and `ADMIN_PASSWORD`
+- Review login: `ADMIN_PR_USERNAME` and `ADMIN_PR_PASSWORD`
+
+Do not commit the actual values. Set them in Vercel environment variables.
+
+### Required Admin Environment Variables
+
+Set these on the Vercel project for `ai-csg`:
+
+| Variable | Purpose |
+|---|---|
+| `ADMIN_USERNAME`, `ADMIN_PASSWORD` | Login for content admins |
+| `ADMIN_TOKEN` | Server-side token for dashboard API calls |
+| `ADMIN_PR_USERNAME`, `ADMIN_PR_PASSWORD` | Login for reviewers |
+| `ADMIN_PR_TOKEN` | Server-side token for review API calls |
+| `GITHUB_TOKEN` | GitHub token used by the admin APIs |
+| `GITHUB_WRITE_REPO` | Repo where admin edits are committed |
+| `GITHUB_TARGET_REPO` | Repo where the pull request is opened |
+| `GITHUB_PREVIEW_REPO` | Optional repo for Vercel deployment statuses |
+| `GITHUB_BRANCH` | Base branch for PRs, usually `main` |
+| `GITHUB_DRAFT_BRANCH` | Draft branch for queued edits, default `admin-drafts` |
+| `VERCEL_PREVIEW_URL_TEMPLATE` | Optional fallback external preview URL |
+
+The GitHub token needs:
+
+- `contents:write`
+- `pull_requests:write`
+
+### Current Content Flow
+
+1. A content admin logs in at `/dashboard`.
+2. The admin selects a section: News, Events, Talks, Grants, or Publications.
+3. The admin fills the form and clicks Save.
+4. The admin API appends the entry to the matching YAML file:
+   - News: `_data/news.yml`
+   - Events: `_data/events.yml`
+   - Talks: `_data/talks.yml`
+   - Grants: `_data/grants.yml`
+   - Publications: `_data/publist.yml`
+5. The edit is committed to the configured draft branch, normally `admin-drafts`.
+6. The app opens one shared PR if none exists, or updates the existing open admin PR.
+7. The submitted form data is stored as hidden PR metadata so the admin app can preview it without relying on an external Vercel iframe.
+8. The dashboard Pending changes panel shows:
+   - `Open preview`
+   - `Confirm`
+   - `Cancel`
+9. `Open preview` opens `/preview?view=dashboard`, showing the submitted entry as simple organised text.
+10. `Confirm` marks the PR as ready for review. It disappears from `/dashboard` and appears on `/review`.
+11. `Cancel` closes the PR and deletes the draft branch.
+12. A reviewer logs in at `/review`.
+13. The reviewer sees the confirmed PR and can:
+   - open the same simple preview at `/preview?view=review`
+   - approve and publish
+   - reject
+   - view the PR on GitHub
+14. `Approve & publish` squash-merges the PR and deletes the draft branch.
+15. GitHub Pages rebuilds the live site from `main`.
+
+### Preview Behaviour
+
+As of 2026-06-19, the admin preview is deliberately simple.
+
+It does not embed the Vercel site preview because the Vercel preview domain can refuse iframe connections. Instead, the admin preview page shows the submitted fields in an organised format that matches the website content structure closely enough for review.
+
+For new pending changes, the preview shows full field details. Older PRs created before this change may only show summary lines.
+
+### Deployment Notes
+
+The admin app must be pushed to `SyedHuq28/ai-csg-admin.git`. Vercel should redeploy `ai-csg` automatically from that repo.
+
+This site repo tracks the admin app as a submodule. When the admin app is updated, also update and push the submodule pointer in this repo.
+
+Latest workflow commits on 2026-06-19:
+
+- Admin repo: `fa57f1d Render admin previews without iframe`
+- Site repo: `7e68efe Update admin preview workflow`
+
+### Optional Site Preview Project
+
+A separate Vercel site preview project can still exist for rendered Jekyll previews:
+
+- Framework: Other
+- Install command: `bundle install`
+- Build command: `bundle exec jekyll build`
+- Output directory: `_site`
+
+This is now optional for the admin workflow. The dashboard/review preview no longer depends on that external preview URL.
+
+See [WORKLOG.md](WORKLOG.md) for the earlier development history.
