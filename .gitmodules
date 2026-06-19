@@ -1,0 +1,3 @@
+[submodule "admin"]
+	path = admin
+	url = https://github.com/SyedHuq28/ai-csg-admin.git

@@ -6,3 +6,4 @@ Gemfile.lock
 admin/.env.local
 admin/node_modules/
 admin/.next/
+.vercel
