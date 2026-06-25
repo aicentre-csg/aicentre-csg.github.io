@@ -6,7 +6,13 @@ Website of the **AI Centre at City St George's, University of London**.
 - **Stack:** [Jekyll](https://jekyllrb.com/) + GitHub Pages, Bootstrap 3, Liquid templating, YAML data files
 - **Theme:** based on the [Allan Lab](https://github.com/mpa139/allanlab) template
 
-## Running locally
+## The below is not yet fully implemented/set up
+
+### Things to decide
+- local user management vs Github (or other)?
+- social media not implemented/wired up 
+
+## How to run this locally
 
 ```bash
 bundle install
