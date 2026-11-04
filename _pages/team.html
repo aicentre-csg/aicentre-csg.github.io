@@ -85,7 +85,7 @@ permalink: /People/
   {% for member in cs_l %}
       <li>
         <div class="person-name">{{ member.Name }}</div>
-        {% if member.Title and member.Title != "Research student" %}<div class="person-meta">{{ member.Title }}</div>{% endif %}
+        {% assign cs_title = member.Title | replace: " of Computer Science", "" | replace: " in Computer Science", "" %}{% if member.Title and member.Title != "Research student" %}<div class="person-meta">{{ cs_title }}</div>{% endif %}
         {% if member.link %}
           <div class="person-link"><a href="{{ member.link }}" target="_blank">View Profile</a></div>
         {% endif %}
