@@ -62,7 +62,7 @@ permalink: /People/
   <h2 id="directors" class="mt-5 mb-4">Directors</h2>
 
   <ul class="people-grid-list">
-    {% assign directors_l = academics | where: "group", "director" %}
+    {% assign directors_l = academics | where: "group", "director" | sort: "order" %}
   {% for member in directors_l %}
       <li>
         <div class="person-name">{{ member.Name }}</div>
