@@ -1,13 +1,708 @@
+- title: "Improving Interoperability Among Defence and National Security Ontologies: Analysis and Evaluation Tasks"
+  authors: "Jonathon Dilworth, Pedro Giesteira Cotovio, David Herron, Paul Cripps, Nigel Dewdney, Cátia Pesquita, Ernesto Jiménez-Ruiz"
+  journal: "Lecture notes in computer science"
+  year: '2026'
+  date: '2026-10-22'
+  url: https://doi.org/10.1007/978-3-032-42029-9_7
+  doi: "10.1007/978-3-032-42029-9_7"
+- title: "Rabin Games Revisited"
+  authors: "Antonio Di Stasio, Moshe Y. Vardi"
+  journal: "Electronic Proceedings in Theoretical Computer Science"
+  year: '2026'
+  date: '2026-10-06'
+  url: https://doi.org/10.4204/eptcs.454.8
+  doi: "10.4204/eptcs.454.8"
+- title: "Inferring Superpopulation Labels from DNA via AlphaGenome-Derived Functional Signals"
+  authors: "Alberto Ferreira De Souza, Thiago de Oliveira Santos, Claudine  Santos Badue, Breno U. De Angelo, Débora Dummer Meira, Artur d’Avila Garcez, Giancarlo Guizzardi"
+  journal: "Lecture notes in computer science"
+  year: '2026'
+  date: '2026-09-13'
+  url: https://doi.org/10.1007/978-3-032-38407-2_48
+  doi: "10.1007/978-3-032-38407-2_48"
+- title: "New insights into the $$b\\rightarrow c \\bar{u}q$$ puzzle through Top–Bottom synergies"
+  authors: "Jack Y. Araz, Christoph Englert, Matthew John Kirk, Gilberto Tetlalmatzi-Xolocotzi"
+  journal: "The European Physical Journal C"
+  year: '2026'
+  date: '2026-09-06'
+  url: https://doi.org/10.1140/epjc/s10052-026-16297-5
+  doi: "10.1140/epjc/s10052-026-16297-5"
+- title: "Dynamic Multi-Path Retrieval for Knowledge-based Visual Question Answering"
+  authors: "Zeyu Song, Yimin Deng, Yuxin Zhang, Guoshuai Zhao, Chengxu Liu, Jialie Shen, Xueming Qian"
+  journal: "International Joint Conference on Artificial Intelligence"
+  year: '2026'
+  date: '2026-09-01'
+  url: https://doi.org/10.24963/ijcai.2026/182
+  doi: "10.24963/ijcai.2026/182"
+- title: "Federated recommender systems as distributed knowledge fusion: Techniques, challenges, and future directions"
+  authors: "Yunqi Mi, Jiakui Shen, Guoshuai Zhao, Chengxu Liu, Jialie Shen, Xueming Qian"
+  journal: "Information Fusion"
+  year: '2026'
+  date: '2026-08-19'
+  url: https://doi.org/10.1016/j.inffus.2026.104712
+  doi: "10.1016/j.inffus.2026.104712"
+- title: "Insights Into Public Attitudes for Effective First Responder Communication During a Simulated Mass Casualty Incident"
+  authors: "Darren Cook, Sara Waring, Michael Humann, L. J. Alison"
+  journal: "Journal of Contingencies and Crisis Management"
+  year: '2026'
+  date: '2026-08-17'
+  url: https://doi.org/10.1111/1468-5973.70217
+  doi: "10.1111/1468-5973.70217"
+- title: "The 5th Workshop on AI Agent for Information Retrieval: Generating and Ranking"
+  authors: "Qingsong Wen, Prakhar Mehrotra, Yongfeng Zhang, Zhiwei Liu, Julian McAuley, Hua Wei, Linsey Xiaolin Pang, Jialie Shen, Wei Liu, Philip S. Yu"
+  journal: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)"
+  year: '2026'
+  date: '2026-08-07'
+  url: https://doi.org/10.1145/3770855.3818251
+  doi: "10.1145/3770855.3818251"
+- title: "CanonFedRec: A Canonical Geometric Framework for Personalized Federated Recommendation"
+  authors: "Yunqi Mi, Zeyu Hao, Guoshuai Zhao, Yingjie Wu, Chengxu Liu, Jialie Shen, Xueming Qian"
+  journal: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)"
+  year: '2026'
+  date: '2026-08-06'
+  url: https://doi.org/10.1145/3770855.3817845
+  doi: "10.1145/3770855.3817845"
+- title: "Large Language Model Empowered Recommendation Meets All-Domain Continual Pre-Training"
+  authors: "Haokai Ma, Yunshan Ma, Ruobing Xie, Lei Meng, Jialie Shen, Xingwu Sun, Zhanhui Kang, Tat‐Seng Chua"
+  journal: "IEEE Transactions on Knowledge and Data Engineering"
+  year: '2026'
+  date: '2026-07-27'
+  url: https://doi.org/10.1109/tkde.2026.3717059
+  doi: "10.1109/tkde.2026.3717059"
+- title: "Communicating likelihoods with normalising flows"
+  authors: "Jack Y. Araz, A. Beck, M. Reboud, Michael Spannowsky, Danny van Dyk"
+  journal: "The European Physical Journal C"
+  year: '2026'
+  date: '2026-07-13'
+  url: https://doi.org/10.1140/epjc/s10052-026-16045-9
+  doi: "10.1140/epjc/s10052-026-16045-9"
+- title: "Trustworthy Personalized Retrieval in the LLM Era: Fairness, Bias Awareness, Privacy, and Multimodality"
+  authors: "Frank Hopfgartner, Jialie Shen"
+  journal: "International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)"
+  year: '2026'
+  date: '2026-07-10'
+  url: https://doi.org/10.1145/3805712.3808647
+  doi: "10.1145/3805712.3808647"
+- title: "Bijective BWT Based Compression Schemes"
+  authors: "Golnaz Badkobeh, Hideo Bannai, Tomohiro I, Dominik Köppl"
+  journal: "Theory of Computing Systems"
+  year: '2026'
+  date: '2026-07-03'
+  url: https://doi.org/10.1007/s00224-025-10235-w
+  doi: "10.1007/s00224-025-10235-w"
+- title: "REVS-T: Trust-Tier-Aware Provider Selection for Secure Vehicular Computation Offloading"
+  authors: "Sharifah Yaqoub Fayi, Ferheen Ayaz, Zhengguo Sheng"
+  journal: "IEEE International Mediterranean Conference on Communications and Networking (MeditCom)"
+  year: '2026'
+  date: '2026-07-01'
+  url: https://doi.org/10.1109/meditcom67211.2026.11641110
+  doi: "10.1109/meditcom67211.2026.11641110"
+- title: "Establishing Zero-Shot LLM Performance at Network Tomography"
+  authors: "India-Jane Barry, Ilir Gashi, Kizito Salako, Pedro Marques, Pranava Madhyastha"
+  journal: "International Conference on Dependable Systems and Networks workshops"
+  year: '2026'
+  date: '2026-06-22'
+  url: https://doi.org/10.1109/dsn-w70714.2026.00036
+  doi: "10.1109/dsn-w70714.2026.00036"
+- title: "Risk management for cyber insurance: a survey for data-driven approaches with the use of AI"
+  authors: "Antonios Paragioudakis, Nikos Komninos, Michail Smyrlis, Georgios Spanoudakis, Christos Kloukinas Z"
+  journal: "International Journal of Information Security"
+  year: '2026'
+  date: '2026-06-20'
+  url: https://doi.org/10.1007/s10207-026-01275-5
+  doi: "10.1007/s10207-026-01275-5"
+- title: "Persistent Homology in Medical Image Processing: A Literature Review"
+  authors: "Daniel Brito-Pacheco, Panos Giannopoulos, Constantino Carlos Reyes‐Aldasoro"
+  journal: "ACM Transactions on Computing for Healthcare"
+  year: '2026'
+  date: '2026-06-12'
+  url: https://doi.org/10.1145/3820762
+  doi: "10.1145/3820762"
+- title: "Designing More-than-Human Climate Futures: Affect, Aesthetics and Relational Practices"
+  authors: "Rachel Clarke, Michelle Westerlaken, Sara Heitlinger, Anton Poikolainen Rosén, Jaz Choi"
+  journal: "Proceedings of DRS"
+  year: '2026'
+  date: '2026-06-08'
+  url: https://doi.org/10.21606/drs.2026.188
+  doi: "10.21606/drs.2026.188"
+- title: "The role of data embedding in quantum autoencoders for improved anomaly detection"
+  authors: "Jack Y. Araz, Michael Spannowsky"
+  journal: "Quantum Machine Intelligence"
+  year: '2026'
+  date: '2026-06-01'
+  url: https://doi.org/10.1007/s42484-026-00404-6
+  doi: "10.1007/s42484-026-00404-6"
+- title: "Deep Learning Agents and the Emergence of Compositional Languages: Approaches, Inductive Biases and Measurement"
+  authors: "Nicholas Bailey, Chris Child, Tillman Weyde"
+  journal: "Journal of Artificial Intelligence Research"
+  year: '2026'
+  date: '2026-05-29'
+  url: https://doi.org/10.1613/jair.1.17302
+  doi: "10.1613/jair.1.17302"
+- title: "A collaborative approach to applying Natural Language Processing (NLP) to Domestic Homicide Reviews (DHRs): A study protocol"
+  authors: "Darren Cook, Elizabeth A. Cook, Sumanta Roy, Ravi K. Thiara, Rani Selvarajah"
+  journal: "PLoS ONE"
+  year: '2026'
+  date: '2026-05-21'
+  url: https://doi.org/10.1371/journal.pone.0348948
+  doi: "10.1371/journal.pone.0348948"
+- title: "Deciphering compressed electroweakino excesses with MadAnalysis5"
+  authors: "Jack Y. Araz, Benjamin Fuks E, Mark D. Goodsell, Taylor Murphy"
+  journal: "The European Physical Journal C"
+  year: '2026'
+  date: '2026-05-16'
+  url: https://doi.org/10.1140/epjc/s10052-026-15710-3
+  doi: "10.1140/epjc/s10052-026-15710-3"
+- title: "The role of protein embeddings for protein–protein interaction prediction with graph neural networks"
+  authors: "Laura Balbi, Rita T. Sousa, Pedro Giesteira Cotovio, Cátia Pesquita"
+  journal: "Briefings in Bioinformatics"
+  year: '2026'
+  date: '2026-05-01'
+  url: https://doi.org/10.1093/bib/bbag313
+  doi: "10.1093/bib/bbag313"
+- title: "A simpler approach to inter-application authentication utilising cloud-native identities"
+  authors: "Adrian Asher, Raj Rajarajan"
+  journal: "Journal of Cloud Computing Advances Systems and Applications"
+  year: '2026'
+  date: '2026-04-23'
+  url: https://doi.org/10.1186/s13677-026-00903-8
+  doi: "10.1186/s13677-026-00903-8"
+- title: "Artificial intelligence in critical synthesis of public health responses to violence: A novel application to UK violence prevention policy"
+  authors: "Darren Cook, Elizabeth A. Cook, Kimberly Cullen, Konstantinos Zachos, Sally McManus, Mark A Bellis, Gene Solomon Feder, Neil Maiden"
+  journal: "Public Health"
+  year: '2026'
+  date: '2026-04-13'
+  url: https://doi.org/10.1016/j.puhe.2026.106258
+  doi: "10.1016/j.puhe.2026.106258"
+- title: "A representational framework for learning and encoding structurally enriched trajectories in complex agent environments"
+  authors: "Corina Cătărău-Cotuţiu, Esther Mondragón, Eduardo Alonso"
+  journal: "Neural Networks"
+  year: '2026'
+  date: '2026-03-19'
+  url: https://doi.org/10.1016/j.neunet.2026.108868
+  doi: "10.1016/j.neunet.2026.108868"
+- title: "Whole-Field Action Sensing via Wearable Single-Channel EMG Sensors and Resource-Efficient Motion Network"
+  authors: "Xuanming Jiang, Dingyu Nie, Baoyi An, Yuzhe Zheng, Yichuan Mao, Jialie Shen, Xueming Qian, Zhiwen Jin, Wei Lan, Guoshuai Zhao"
+  journal: "Proceedings of the AAAI Conference on Artificial Intelligence"
+  year: '2026'
+  date: '2026-03-14'
+  url: https://doi.org/10.1609/aaai.v40i21.38805
+  doi: "10.1609/aaai.v40i21.38805"
+- title: "Canonical Forms and Widening for Two Variables Per Inequality Systems"
+  authors: "Martin Brain, Jacob M. Howe"
+  journal: "Mathematics in Computer Science"
+  year: '2026'
+  date: '2026-03-11'
+  url: https://doi.org/10.1007/s11786-025-00612-6
+  doi: "10.1007/s11786-025-00612-6"
+- title: "More characterizations of morphic words"
+  authors: "Golnaz Badkobeh, Pascal Ochem"
+  journal: "Theoretical Computer Science"
+  year: '2026'
+  date: '2026-03-07'
+  url: https://doi.org/10.1016/j.tcs.2026.115875
+  doi: "10.1016/j.tcs.2026.115875"
+- title: "\"Although Powerful, it's not Infallible\": Investigating Academic Researchers' Verification Challenges with LLMs"
+  authors: "Monica Visani Scozzi, Stephann Makri, Pranava Madhyastha"
+  journal: "Conference on Human Information Interaction and Retrieval"
+  year: '2026'
+  date: '2026-02-28'
+  url: https://doi.org/10.1145/3786304.3787865
+  doi: "10.1145/3786304.3787865"
+- title: "Computational text analysis on unstructured police data: a scoping review"
+  authors: "Wilson Lukmanjaya, Christina Halmich, Tony Gerard Butler, Darren Cook, George Karystianis"
+  journal: "Crime Science"
+  year: '2026'
+  date: '2026-02-15'
+  url: https://doi.org/10.1186/s40163-026-00272-2
+  doi: "10.1186/s40163-026-00272-2"
+- title: "Optimized Control of Bidirectional EV Charging for Net Zero with Incentivized Prosumerism"
+  authors: "Ferheen Ayaz, Maziar Nekovee, Nishant Jha"
+  journal: "Future Transportation"
+  year: '2026'
+  date: '2026-01-02'
+  url: https://doi.org/10.3390/futuretransp6010008
+  doi: "10.3390/futuretransp6010008"
+- title: "KG-CRAFT: Knowledge Graph-based Contrastive Reasoning with LLMs for Enhancing Automated Fact-checking"
+  authors: "Vítor Lourenço, Aline Paes, Tillman Weyde, Audrey Depeige, Mohnish Dubey"
+  journal: "Conference of the European Chapter of the Association for Computational Linguistics"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.18653/v1/2026.eacl-long.302
+  doi: "10.18653/v1/2026.eacl-long.302"
+- title: "ARM2: Adaptive Reasoning Model with Vision Understanding and Executable Code"
+  authors: "Jian Hua Xie, Zhendong Chu, Aoxiao Zhong, Kai Zhang, Mingzhe Han, Xing Fan, Jialie Shen, Qingsong Wen"
+  journal: "Findings of the Association for Computational Linguistics: ACL (Findings of ACL)"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.18653/v1/2026.findings-acl.1365
+  doi: "10.18653/v1/2026.findings-acl.1365"
+- title: "Mutation-bias learning: an evolutionary game dynamics approach to convergence analysis in multi-agent reinforcement learning"
+  authors: "Johann Bauer, S West, Eduardo Alonso, Mark Broom"
+  journal: "Proceedings of the Royal Society A Mathematical Physical and Engineering Sciences"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.1098/rspa.2025.0449
+  doi: "10.1098/rspa.2025.0449"
+- title: "AI History and Basics: From Symbolism to Neural Networks"
+  authors: "Constantino Carlos Reyes‐Aldasoro, Eduardo Alonso"
+  journal: "Springer eBooks"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.1007/978-3-032-05080-9_1
+  doi: "10.1007/978-3-032-05080-9_1"
+- title: "Exploring Content and Social Connections of Fake News with Explainable Text and Graph Learning"
+  authors: "Vítor Lourenço, Aline Paes, Tillman Weyde"
+  journal: "Lecture notes in computer science"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.1007/978-3-032-15990-8_14
+  doi: "10.1007/978-3-032-15990-8_14"
+- title: "Rule Extraction from Fake News Classifiers"
+  authors: "Fatima Iqbal, Jacob M. Howe"
+  journal: "Communications in computer and information science"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.1007/978-3-032-15638-9_21
+  doi: "10.1007/978-3-032-15638-9_21"
+- title: "Extracting Deterministic Finite Automata from RNNs via Hyperplane Partitioning and Learning"
+  authors: "Sandamali Yashodhara Wickramasinghe, Jacob M. Howe, Laure Daviaud"
+  journal: "Communications in computer and information science"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.1007/978-3-032-15638-9_8
+  doi: "10.1007/978-3-032-15638-9_8"
+- title: "Interpretable Context-Aware Models Improve Expert Validation in Ontology Matching"
+  authors: "Pedro Giesteira Cotovio, Susana Nunes, Ernesto Jiménez-Ruiz, Cátia Pesquita"
+  journal: "Lecture notes in computer science"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.1007/978-3-032-25156-5_13
+  doi: "10.1007/978-3-032-25156-5_13"
+- title: "Rotation- and Scale-Invariant Shape Extraction from Vessel Trajectories for Human-in-The-Loop Monitoring: A Case Study at the Ports of Brittany"
+  authors: "Cristiano Landi, Natalia V. Andrienko, Gennady Andrienko"
+  journal: "Communications in computer and information science"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.1007/978-3-032-19105-2_43
+  doi: "10.1007/978-3-032-19105-2_43"
+- title: "Finding Our Moral Values: Guidelines for Value System Aggregation"
+  authors: "Victor Alonso, Marc Serramia, Eduardo Alonso"
+  journal: "Lecture notes in computer science"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.1007/978-981-95-9667-6_2
+  doi: "10.1007/978-981-95-9667-6_2"
+- title: "AI and blockchain supported Internet-of-vehicles for net-zero"
+  authors: "Ferheen Ayaz, Maziar Nekovee"
+  journal: "Elsevier eBooks"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.1016/b978-0-44-334009-3.00011-5
+  doi: "10.1016/b978-0-44-334009-3.00011-5"
+- title: "Semantic Averaging with MUltiple Languages (SAMUL)"
+  authors: "Cliff O’Reilly, Ernesto Jiménez-Ruiz, Tillman Weyde"
+  journal: "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.18653/2026.findings-emnlp.1827
+  doi: "10.18653/2026.findings-emnlp.1827"
+- title: "Working Memory Constraints Scaffold Learning in Transformers under Data Scarcity"
+  authors: "Pranava Madhyastha, Dagmar Adamcová"
+  journal: "Findings of the Association for Computational Linguistics: ACL (Findings of ACL)"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.18653/v1/2026.findings-acl.2133
+  doi: "10.18653/v1/2026.findings-acl.2133"
+- title: "Generating Explanatory Rules for Temporal Data Using Prior Knowledge"
+  authors: "Eleonora Cappuccio, Bahavathy Kathirgamanathan, Salvatore Rinzivillo, Gennady Andrienko, Natalia V. Andrienko"
+  journal: "Communications in computer and information science"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.1007/978-3-032-25308-8_29
+  doi: "10.1007/978-3-032-25308-8_29"
+- title: "InSight: A Benchmark for Agentic Claim Verification in Interactive Visualizations"
+  authors: "Maeve Hutchinson, S. Huq, Mohammad Albinhassan, Radu Jianu, Aidan Slingsby, Pranava Madhyastha"
+  journal: "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  year: '2026'
+  date: '2026-01-01'
+  url: https://doi.org/10.18653/2026.emnlp-main.606
+  doi: "10.18653/2026.emnlp-main.606"
+- title: "A Multi-Task Deep Neural Network for Segmentation and Landmark Detection in Cardiac Computerized Tomography"
+  authors: "Nicla Mandas, Giulia Baldazzi, Andrea Pitzus, Giacomo Tarroni, Danilo Pani"
+  journal: "Computing in cardiology"
+  year: '2025'
+  date: '2025-12-12'
+  url: https://doi.org/10.22489/cinc.2025.402
+  doi: "10.22489/cinc.2025.402"
+- title: "Sequence-augmented Conversational Recommendation System Based on Diffusion Models for Personalized Cultural Exploration"
+  authors: "Lun Tan, Jun Gong, Jiakui Shen, Yunqi Mi, Guoshuai Zhao, Jialie Shen, Xueming Qian"
+  journal: "ACM International Conference on Multimedia in Asia (MMAsia)"
+  year: '2025'
+  date: '2025-12-06'
+  url: https://doi.org/10.1145/3743093.3770941
+  doi: "10.1145/3743093.3770941"
+- title: "The MICCAI Federated Tumor Segmentation (FeTS) Challenge 2024: Efficient and Robust Aggregation Methods"
+  authors: "Akis Linardos, Sarthak Pati, Ujjwal Baid, Brandon Edwards, Patrick Foley, Kevin Ta, Verena Chung, Micah Sheller, Muhammad Irfan Khan, Mojtaba Jafaritadi et al."
+  journal: "The Journal of Machine Learning for Biomedical Imaging"
+  year: '2025'
+  date: '2025-12-05'
+  url: https://doi.org/10.59275/j.melba.2025-5242
+  doi: "10.59275/j.melba.2025-5242"
+- title: "Techniques for interactive visual examination of vessel performance"
+  authors: "Natalia V. Andrienko, Gennady Andrienko, Dimitris Zissis, Alexandros Troupiotis-Kapeliaris, Giannis Spiliopoulos"
+  journal: "Big Data Research"
+  year: '2025'
+  date: '2025-12-01'
+  url: https://doi.org/10.1016/j.bdr.2025.100575
+  doi: "10.1016/j.bdr.2025.100575"
+- title: "Improving police recorded crime data for domestic violence and abuse through natural language processing"
+  authors: "Darren Cook, Ruth Weir, Leslie Humphreys"
+  journal: "Frontiers in Sociology"
+  year: '2025'
+  date: '2025-11-24'
+  url: https://doi.org/10.3389/fsoc.2025.1686632
+  doi: "10.3389/fsoc.2025.1686632"
+- title: "MacroVAE: Counterfactual Financial Scenario Generation via Macroeconomic Conditioning"
+  authors: "Szymon Kubiak, Tillman Weyde, O.A. Galkin, Daniel Philps, Ram D. Gopal"
+  journal: "ACM International Conference on AI in Finance (ICAIF)"
+  year: '2025'
+  date: '2025-11-14'
+  url: https://doi.org/10.1145/3768292.3770360
+  doi: "10.1145/3768292.3770360"
+- title: "The Impact of Generative AI in Renewable Energy Applications"
+  authors: "Jialie Shen, Haiyan Miao, Fengshou Gu"
+  journal: "IEEE International Conference on Collaboration and Internet Computing (CIC)"
+  year: '2025'
+  date: '2025-11-11'
+  url: https://doi.org/10.1109/cic67133.2025.00025
+  doi: "10.1109/cic67133.2025.00025"
+- title: "Finding maximal closed substrings"
+  authors: "Golnaz Badkobeh, Alessandro De Luca, Gabriele Fici, Simon J. Puglisi"
+  journal: "Theoretical Computer Science"
+  year: '2025'
+  date: '2025-11-09'
+  url: https://doi.org/10.1016/j.tcs.2025.115628
+  doi: "10.1016/j.tcs.2025.115628"
+- title: "Inducing Grokking with Distribution Shifts"
+  authors: "Breno W. Carvalho, Artur d’Avila Garcez, Luís C. Lamb, Emílio Vital Brazil"
+  journal: "IEEE International Conference on Tools with Artificial Intelligence (ICTAI)"
+  year: '2025'
+  date: '2025-11-03'
+  url: https://doi.org/10.1109/ictai66417.2025.00036
+  doi: "10.1109/ictai66417.2025.00036"
+- title: "What Do LLMs Prioritise When Adapting Visualizations to User Personas?"
+  authors: "Amir Hosseini, Jo Wood, Aidan Slingsby, Radu Jianu, Mai Elshehaly"
+  journal: "Workshop on Visual Analytics in Healthcare (VAHC)"
+  year: '2025'
+  date: '2025-11-02'
+  url: https://doi.org/10.1109/vahc69430.2025.00007
+  doi: "10.1109/vahc69430.2025.00007"
+- title: "Capturing Visualization Design Rationale"
+  authors: "Maeve Hutchinson, Radu Jianu, Aidan Slingsby, Jo Wood, Pranava Madhyastha"
+  journal: "Visualization"
+  year: '2025'
+  date: '2025-11-01'
+  url: https://doi.org/10.1109/vis60296.2025.00052
+  doi: "10.1109/vis60296.2025.00052"
+- title: "A Plug-and-Play Model-Agnostic Embedding Enhancement Approach for Explainable Recommendation"
+  authors: "Yunqi Mi, Boyang Yan, Guoshuai Zhao, Jialie Shen, Xueming Qian"
+  journal: "IEEE Transactions on Multimedia"
+  year: '2025'
+  date: '2025-10-27'
+  url: https://doi.org/10.1109/tmm.2025.3623558
+  doi: "10.1109/tmm.2025.3623558"
+- title: "Ear with Eye: Lightweight Multimodal Audio-Visual Network Inspired by Bionic Structures"
+  authors: "Xuanming Jiang, Baoyi An, Zhengwei Zou, Dingyu Nie, Jialie Shen, Xueming Qian, Guoshuai Zhao"
+  journal: "ACM International Conference on Multimedia (ACM MM)"
+  year: '2025'
+  date: '2025-10-25'
+  url: https://doi.org/10.1145/3746027.3755149
+  doi: "10.1145/3746027.3755149"
+- title: "Ex Pede Herculem, Predicting Global Actionness Curve from Local Clips"
+  authors: "Xu Chen, Yang Li, Yahong Han, Jialie Shen"
+  journal: "ACM International Conference on Multimedia (ACM MM)"
+  year: '2025'
+  date: '2025-10-25'
+  url: https://doi.org/10.1145/3746027.3754712
+  doi: "10.1145/3746027.3754712"
+- title: "A Blockchain-Based Reputation-Enhanced Vehicle Selection (REVS) for Computation Offloading"
+  authors: "Sharifah Yaqoub Fayi, Ferheen Ayaz, Zhengguo Sheng"
+  journal: "IEEE Vehicular Technology Conference"
+  year: '2025'
+  date: '2025-10-19'
+  url: https://doi.org/10.1109/vtc2025-fall65116.2025.11310384
+  doi: "10.1109/vtc2025-fall65116.2025.11310384"
+- title: "Coupling the Generator with Teacher for Effective Data-Free Knowledge Distillation"
+  authors: "Xu Chen, Yang Li, Yahong Han, Guangquan Xu, Jialie Shen"
+  journal: "IEEE/CVF International Conference on Computer Vision (ICCV)"
+  year: '2025'
+  date: '2025-10-19'
+  url: https://doi.org/10.1109/iccv51701.2025.00208
+  doi: "10.1109/iccv51701.2025.00208"
+- title: "Coordinated LLM multi-agent systems for collaborative question-answer generation"
+  authors: "Sami Saadaoui, Eduardo Alonso"
+  journal: "Knowledge-Based Systems"
+  year: '2025'
+  date: '2025-10-15'
+  url: https://doi.org/10.1016/j.knosys.2025.114627
+  doi: "10.1016/j.knosys.2025.114627"
+- title: "Integrating human knowledge for explainable AI"
+  authors: "Eleonora Cappuccio, Bahavathy Kathirgamanathan, Salvatore Rinzivillo, Gennady Andrienko, Natalia V. Andrienko"
+  journal: "Machine Learning"
+  year: '2025'
+  date: '2025-10-15'
+  url: https://doi.org/10.1007/s10994-025-06879-x
+  doi: "10.1007/s10994-025-06879-x"
+- title: "Digital Twin-Based Reinforcement Learning for Energy Exchange Among Electric Vehicles and Base Stations in a Disaster-Affected Region"
+  authors: "Ferheen Ayaz, Maziar Nekovee, Zhengguo Sheng, Nagham H. Saeed"
+  journal: "IEEE Transactions on Intelligent Transportation Systems"
+  year: '2025'
+  date: '2025-09-29'
+  url: https://doi.org/10.1109/tits.2025.3607305
+  doi: "10.1109/tits.2025.3607305"
+- title: "FedCLAM: Client Adaptive Momentum with Foreground Intensity Matching for Federated Medical Image Segmentation"
+  authors: "Vasilis Siomos, Jonathan Passerat‐Palmbach, Giacomo Tarroni"
+  journal: "Lecture notes in computer science"
+  year: '2025'
+  date: '2025-09-18'
+  url: https://doi.org/10.1007/978-3-032-04978-0_24
+  doi: "10.1007/978-3-032-04978-0_24"
+- title: "Designing for Collaboration: Visualization to Enable Human–LLM Analytical Partnership"
+  authors: "Mai Elshehaly, Radu Jianu, Aidan Slingsby, Gennady Andrienko, Natalia V. Andrienko"
+  journal: "IEEE Computer Graphics and Applications"
+  year: '2025'
+  date: '2025-09-01'
+  url: https://doi.org/10.1109/mcg.2025.3583451
+  doi: "10.1109/mcg.2025.3583451"
+- title: "A Semantic Framework for Neurosymbolic Computation (Abstract Reprint)"
+  authors: "Simon Odense, Artur d’Avila Garcez"
+  journal: "International Joint Conference on Artificial Intelligence"
+  year: '2025'
+  date: '2025-09-01'
+  url: https://doi.org/10.24963/ijcai.2025/1230
+  doi: "10.24963/ijcai.2025/1230"
+- title: "Algebras of actions in an agent's representations of the world"
+  authors: "Alexander Dean, Eduardo Alonso, Esther Mondragón"
+  journal: "Artificial Intelligence"
+  year: '2025'
+  date: '2025-08-21'
+  url: https://doi.org/10.1016/j.artint.2025.104403
+  doi: "10.1016/j.artint.2025.104403"
+- title: "Systems Policy Analysis for Antimicrobial Resistance Targeted Action (SPAARTA): A Research Protocol"
+  authors: "Raheelah Ahmad, Nina Zhu, Jain Rishabh, Jyoti Joshi, Mirfin M. Mpundu, Paola Amigo Gutierrez, Alison Helen Holmes, Tillman Weyde, Rifat Ali Atun"
+  journal: "Wellcome Open Research"
+  year: '2025'
+  date: '2025-07-30'
+  url: https://doi.org/10.12688/wellcomeopenres.22923.2
+  doi: "10.12688/wellcomeopenres.22923.2"
+- title: "Dual transferable knowledge interaction for source-free domain adaptation"
+  authors: "Mengmeng Zhan, Zongqian Wu, Jiaying Yang, Lin Peng, Jialie Shen, Xiaofeng Zhu"
+  journal: "Information Processing & Management"
+  year: '2025'
+  date: '2025-07-25'
+  url: https://doi.org/10.1016/j.ipm.2025.104302
+  doi: "10.1016/j.ipm.2025.104302"
+- title: "Forecasting Infrastructure Needs, Environmental Impacts, and Dynamic Pricing for Electric Vehicle Charging"
+  authors: "Osama Jabr, Ferheen Ayaz, Maziar Nekovee, Nagham H. Saeed"
+  journal: "World Electric Vehicle Journal"
+  year: '2025'
+  date: '2025-07-22'
+  url: https://doi.org/10.3390/wevj16080410
+  doi: "10.3390/wevj16080410"
+- title: "Persistent Homology and Gabor Features Reveal Inconsistencies Between Widely Used Colorectal Cancer Training and Testing Datasets"
+  authors: "Daniel Brito-Pacheco, Riad Ibadulla, Ximena Fernández, Panos Giannopoulos, Constantino Carlos Reyes‐Aldasoro"
+  journal: "Lecture notes in computer science"
+  year: '2025'
+  date: '2025-07-16'
+  url: https://doi.org/10.1007/978-3-031-98688-8_7
+  doi: "10.1007/978-3-031-98688-8_7"
+- title: "Towards fair decentralized benchmarking of healthcare AI algorithms with the Federated Tumor Segmentation (FeTS) challenge"
+  authors: "Maximilian Zenk, Ujjwal Baid, Sarthak Pati, Akis Linardos, Brandon Edwards, Micah Sheller, Patrick Foley, Alejandro Aristizábal, David Zimmerer, Alexey D. Gruzdev et al."
+  journal: "Nature Communications"
+  year: '2025'
+  date: '2025-07-07'
+  url: https://doi.org/10.1038/s41467-025-60466-1
+  doi: "10.1038/s41467-025-60466-1"
+- title: "Towards Robust Neurosymbolic Relational Learning"
+  authors: "Thais Luca, Aline Paes, Gerson Zaverucha, Artur d’Avila Garcez"
+  journal: "International Joint Conference on Neural Networks (IJCNN)"
+  year: '2025'
+  date: '2025-06-30'
+  url: https://doi.org/10.1109/ijcnn64981.2025.11229419
+  doi: "10.1109/ijcnn64981.2025.11229419"
+- title: "ORSA-T: Multi-View Object-Centric Scene Representation Learning with Slot Attention and Transformer"
+  authors: "Henri Placek, Chris Child, Tillman Weyde"
+  journal: "International Joint Conference on Neural Networks (IJCNN)"
+  year: '2025'
+  date: '2025-06-30'
+  url: https://doi.org/10.1109/ijcnn64981.2025.11227165
+  doi: "10.1109/ijcnn64981.2025.11227165"
+- title: "Data Driven Derivative-based Regularization for Regression"
+  authors: "Enrico Lopedoto, Kizito Salako, Maksim Shekhunov, Vitaly Aksenov, Tillman Weyde"
+  journal: "International Joint Conference on Neural Networks (IJCNN)"
+  year: '2025'
+  date: '2025-06-30'
+  url: https://doi.org/10.1109/ijcnn64981.2025.11228067
+  doi: "10.1109/ijcnn64981.2025.11228067"
+- title: "Visualizing game dynamics at a specific time: Influence of the players’ poses for tactical analyses in padel"
+  authors: "Mohammadreza Javadiha, Carlos Andújar, Enrique Lacasa, Gota Shirato, Natalia V. Andrienko, Gennady Andrienko"
+  journal: "Visual Informatics"
+  year: '2025'
+  date: '2025-06-19'
+  url: https://doi.org/10.1016/j.visinf.2025.100256
+  doi: "10.1016/j.visinf.2025.100256"
+- title: "Predictive Improvement through Latent Space Optimisation"
+  authors: "Alexander McCaffrey, Eduardo Alonso, Esther Mondragón"
+  journal: "Adaptive Agents and Multi-Agents Systems"
+  year: '2025'
+  date: '2025-05-28'
+  url: https://doi.org/10.65109/hwso9225
+  doi: "10.65109/hwso9225"
+- title: "Visually-supported topic modeling for understanding behavioral patterns from spatio–temporal events"
+  authors: "Laleh Moussavi, Gennady Andrienko, Natalia V. Andrienko, Aidan Slingsby"
+  journal: "Computers & Graphics"
+  year: '2025'
+  date: '2025-05-20'
+  url: https://doi.org/10.1016/j.cag.2025.104245
+  doi: "10.1016/j.cag.2025.104245"
+- title: "Content Filtering on YouTube: An LLM Approach for Detecting and Scoring Harmful Content"
+  authors: "Syed Mahbubul Huq, Basem Suleiman"
+  journal: "International World Wide Web Conference (WWW)"
+  year: '2025'
+  date: '2025-05-08'
+  url: https://doi.org/10.1145/3701716.3718388
+  doi: "10.1145/3701716.3718388"
+- title: "From the Master's Tool to an Instrument of Change: HCI Design Method Subversion"
+  authors: "Larisa Blazic, Sara Heitlinger, Alex S. Taylor"
+  journal: "CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA)"
+  year: '2025'
+  date: '2025-04-23'
+  url: https://doi.org/10.1145/3706599.3720035
+  doi: "10.1145/3706599.3720035"
+- title: "MTGA: Multi-View Temporal Granularity Aligned Aggregation for Event-Based Lip-Reading"
+  authors: "Wenhao Zhang, Jun Wang, Yong Luo, Lei Yu, Wei Yu, He Zheng, Jialie Shen"
+  journal: "Proceedings of the AAAI Conference on Artificial Intelligence"
+  year: '2025'
+  date: '2025-04-11'
+  url: https://doi.org/10.1609/aaai.v39i10.33104
+  doi: "10.1609/aaai.v39i10.33104"
+- title: "On the Potential of Logic and Reasoning in Neurosymbolic Systems Using OWL-Based Knowledge Graphs"
+  authors: "David Herron, Ernesto Jiménez-Ruiz, Tillman Weyde"
+  journal: "Neurosymbolic Artificial Intelligence"
+  year: '2025'
+  date: '2025-04-01'
+  url: https://doi.org/10.1177/29498732251320043
+  doi: "10.1177/29498732251320043"
+- title: "Prediction of Snacking Behavior Involving Snacks Having High Levels of Saturated Fats, Salt, or Sugar Using Only Information on Previous Instances of Snacking: Survey- and App-Based Study"
+  authors: "Shaima Dammas, Tillman Weyde, Katy Tapper, Gerasimos Spanakis, Anne Roefs, Emmanuel M. Pothos"
+  journal: "JMIR Medical Informatics"
+  year: '2025'
+  date: '2025-03-28'
+  url: https://doi.org/10.2196/57530
+  doi: "10.2196/57530"
+- title: "Geovisualization: past, present, and future"
+  authors: "Natalia V. Andrienko, Gennady Andrienko"
+  journal: "International Journal of Cartography"
+  year: '2025'
+  date: '2025-03-25'
+  url: https://doi.org/10.1080/23729333.2025.2475410
+  doi: "10.1080/23729333.2025.2475410"
+- title: "Contextualized visual analytics for multivariate events"
+  authors: "Lei Peng, Ziyue Lin, Natalia V. Andrienko, Gennady Andrienko, Siming Chen"
+  journal: "Visual Informatics"
+  year: '2025'
+  date: '2025-03-22'
+  url: https://doi.org/10.1016/j.visinf.2025.100234
+  doi: "10.1016/j.visinf.2025.100234"
+- title: "Telecom-to-Grid: Supercharging 6G’s Contribution for Reliable Net-Zero"
+  authors: "Ferheen Ayaz, Maziar Nekovee, Amani Ibraheem"
+  journal: "IEEE reliability magazine "
+  year: '2025'
+  date: '2025-03-07'
+  url: https://doi.org/10.1109/mrl.2025.3544145
+  doi: "10.1109/mrl.2025.3544145"
+- title: "Introducing More-Than-Human Design in Practice"
+  authors: "Anton Poikolainen Rosén, Sara Heitlinger"
+  journal: "interactions"
+  year: '2025'
+  date: '2025-02-25'
+  url: https://doi.org/10.1145/3712714
+  doi: "10.1145/3712714"
+- title: "Optimizing domain-generalizable ReID through non-parametric normalization"
+  authors: "Amran Bhuiyan, Aijun An, Jimmy Xiangji Huang, Jialie Shen"
+  journal: "Pattern Recognition"
+  year: '2025'
+  date: '2025-01-20'
+  url: https://doi.org/10.1016/j.patcog.2025.111356
+  doi: "10.1016/j.patcog.2025.111356"
+- title: "OWL2Vec4OA: Tailoring Knowledge Graph Embeddings for Ontology Alignment"
+  authors: "Sevinj Teymurova, Ernesto Jiménez-Ruiz, Tillman Weyde, Jiaoyan Chen"
+  journal: "Lecture notes in computer science"
+  year: '2025'
+  date: '2025-01-01'
+  url: https://doi.org/10.1007/978-3-031-81221-7_12
+  doi: "10.1007/978-3-031-81221-7_12"
+- title: "PDDL to DFA: A Symbolic Transformation for Effective Reasoning"
+  authors: "Giuseppe De Giacomo, Antonio Di Stasio, Parretti, Gianmarco"
+  journal: "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)"
+  year: '2025'
+  date: '2025-01-01'
+  url: https://doi.org/10.4230/lipics.time.2025.7
+  doi: "10.4230/lipics.time.2025.7"
+- title: "Searching in Euclidean Spaces with Predictions"
+  authors: "Sergio Cabello, Panos Giannopoulos"
+  journal: "Lecture notes in computer science"
+  year: '2025'
+  date: '2025-01-01'
+  url: https://doi.org/10.1007/978-3-031-81396-2_3
+  doi: "10.1007/978-3-031-81396-2_3"
+- title: "Chart Question Answering from Real-World Analytical Narratives"
+  authors: "Maeve Hutchinson, Radu Jianu, Aidan Slingsby, Jo Wood, Pranava Madhyastha"
+  journal: "Proceedings of the conference - Association for Computational Linguistics. Meeting"
+  year: '2025'
+  date: '2025-01-01'
+  url: https://doi.org/10.18653/v1/2025.acl-srw.50
+  doi: "10.18653/v1/2025.acl-srw.50"
+- title: "Learning and Enforcing Context-Sensitive Control for LLMs"
+  authors: "Mohammad Albinhassan, Pranava Madhyastha, Mark Law, Alessandra Russo"
+  journal: "Proceedings of the conference - Association for Computational Linguistics. Meeting"
+  year: '2025'
+  date: '2025-01-01'
+  url: https://doi.org/10.18653/v1/2025.acl-srw.59
+  doi: "10.18653/v1/2025.acl-srw.59"
+- title: "Diagnostic Trouble Codes Prediction with DTC-GOAT and Ensembles"
+  authors: "Abdul Basit Hafeez, Eduardo Alonso, Atif Riaz"
+  journal: "Communications in computer and information science"
+  year: '2025'
+  date: '2025-01-01'
+  url: https://doi.org/10.1007/978-3-032-04339-9_2
+  doi: "10.1007/978-3-032-04339-9_2"
+- title: "Value-Guided Decision Transformer: A Unified Reinforcement Learning Framework for Online and Offline Settings"
+  authors: "Hongling Zheng, Li Chun Shen, Yong Luo, Deheng Ye, Shuhan Xu, Bo Du, Jialie Shen, Dacheng Tao"
+  journal: "neural information processing systems"
+  year: '2025'
+  date: '2025-01-01'
+  url: https://doi.org/10.52202/085713-2407
+  doi: "10.52202/085713-2407"
+- title: "Predicting language outcome after stroke using machine learning: in search of the big data benefit"
+  authors: "Margarita Saranti, Douglas Neville, Adam White, Pia Rotshtein, Thomas M.H. Hope, Cathy J. Price, Howard Bowman"
+  journal: "NeuroImage Clinical"
+  year: '2025'
+  date: '2025-01-01'
+  url: https://doi.org/10.1016/j.nicl.2025.103858
+  doi: "10.1016/j.nicl.2025.103858"
 - title: 'Foundation model assisted visual analytics: Opportunities and Challenges'
   authors: Maeve Hutchinson, Radu Jianu, Aidan Slingsby, Pranava Madhyastha
   journal: Comput. Graph.
   year: '2025'
+  date: '2025'
   url: https://doi.org/10.1016/j.cag.2025.104246
   doi: 10.1016/J.CAG.2025.104246
 - title: 'SEM-CTRL: Semantically Controlled Decoding'
   authors: Mohammad Albinhassan, Pranava Madhyastha, Alessandra Russo
   journal: CoRR
   year: '2025'
+  date: '2025'
   url: https://doi.org/10.48550/arXiv.2503.01804
   doi: 10.48550/ARXIV.2503.01804
 - title: An Empirical Study of Conformal Prediction in LLM with ASP Scaffolds for
@@ -16,6 +711,7 @@
     Madhyastha
   journal: CoRR
   year: '2025'
+  date: '2025'
   url: https://doi.org/10.48550/arXiv.2503.05439
   doi: 10.48550/ARXIV.2503.05439
 - title: 'NeSy4VRD: A Multifaceted Resource for Neurosymbolic AI Research using Knowledge
@@ -23,6 +719,7 @@
   authors: David Herron, Ernesto Jimenez-Ruiz, Giacomo Tarroni, Tillman Weyde
   journal: ''
   year: '2025'
+  date: '2025'
   url: https://doi.org/10.5281/zenodo.17076303
   doi: 10.5281/ZENODO.17076303
 - title: 'Explorations of the Softmax Space: Knowing When the Neural Network Doesn''t
@@ -30,6 +727,7 @@
   authors: Daniel Sikar, Artur d'Avila Garcez, Tillman Weyde
   journal: CoRR
   year: '2025'
+  date: '2025'
   url: https://doi.org/10.48550/arXiv.2502.00456
   doi: 10.48550/ARXIV.2502.00456
 - title: Wavelet-Filtering of Symbolic Music Representations for Folk Tune Segmentation
@@ -37,6 +735,7 @@
   authors: Gissel Velarde, Tillman Weyde, David Meredith
   journal: CoRR
   year: '2025'
+  date: '2025'
   url: https://doi.org/10.48550/arXiv.2504.20522
   doi: 10.48550/ARXIV.2504.20522
 - title: 'KG2Tables: A Domain-Specific Tabular Data Generator to Evaluate Semantic
@@ -44,12 +743,14 @@
   authors: Nora Abdelmageed, Ernesto Jimenez-Ruiz, Oktie Hassanzadeh, Birgitta König-Ries
   journal: Trans. Graph Data Knowl.
   year: '2025'
+  date: '2025'
   url: https://doi.org/10.4230/TGDK.3.1.1
   doi: 10.4230/TGDK.3.1.1
 - title: KG2Tables
   authors: Nora Abdelmageed, Ernesto Jimenez-Ruiz, Oktie Hassanzadeh, Birgitta König-Ries
   journal: ''
   year: '2025'
+  date: '2025'
   url: https://doi.org/10.4230/artifacts.22938
   doi: 10.4230/ARTIFACTS.22938
 - title: 'Non-Euclidean Video Games: Exploring Player Perceptions and Experiences
@@ -57,6 +758,7 @@
   authors: Daniil Osudin, Alena Denisova, Christopher Child
   journal: IEEE Trans. Games
   year: '2025'
+  date: '2025'
   url: https://doi.org/10.1109/TG.2024.3386816
   doi: 10.1109/TG.2024.3386816
 - title: 'DeeP-Mod: Deep Dynamic Programming Based Environment Modelling Using Feature
@@ -64,12 +766,14 @@
   authors: Chris Child, Lam Ngo
   journal: ''
   year: '2025'
+  date: '2025'
   url: https://doi.org/10.1007/978-981-95-1233-1\_3
   doi: 10.1007/978-981-95-1233-1\_3
 - title: Disentangling concept semantics via multilingual averaging in Sparse Autoencoders
   authors: Cliff O'Reilly, Ernesto Jimenez-Ruiz, Tillman Weyde
   journal: CoRR
   year: '2025'
+  date: '2025'
   url: https://doi.org/10.48550/arXiv.2508.14275
   doi: 10.48550/ARXIV.2508.14275
 - title: International Classification of Diseases Prediction from MIMIIC-III Clinical
@@ -78,6 +782,7 @@
   authors: Ilyas Aden, Christopher H. T. Child, Constantino Carlos Reyes-Aldasoro
   journal: Big Data Cogn. Comput.
   year: '2024'
+  date: '2024'
   url: https://doi.org/10.3390/bdcc8050047
   doi: 10.3390/BDCC8050047
 
@@ -86,17 +791,20 @@
   authors: Chenxi Whitehouse, Tillman Weyde, Pranava Madhyastha
   journal: ''
   year: '2023'
+  date: '2023'
   url: https://doi.org/10.18653/v1/2023.findings-eacl.126
   doi: 10.18653/V1/2023.FINDINGS-EACL.126
 - title: Are words equally surprising in audio and audio-visual comprehension?
   authors: Pranava Madhyastha, Ye Zhang, Gabriella Vigliocco
   journal: CoRR
   year: '2023'
+  date: '2023'
   url: https://doi.org/10.48550/arXiv.2307.07277
   doi: 10.48550/ARXIV.2307.07277
 - title: Hand Pose Estimation Using Deep Stereovision and Markov-Chain Monte Carlo
   authors: Rilwan Remilekun Basaru, Chris Child, Eduardo Alonso, Greg G. Slabaugh
   journal: ''
   year: '2017'
+  date: '2017'
   url: https://doi.org/10.1109/ICCVW.2017.76
   doi: 10.1109/ICCVW.2017.76
