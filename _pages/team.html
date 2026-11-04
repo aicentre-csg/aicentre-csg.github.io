@@ -66,6 +66,7 @@ permalink: /People/
   {% for member in directors_l %}
       <li>
         <div class="person-name">{{ member.Name }}</div>
+        {% if member.centre_role %}<div class="person-meta"><strong>{{ member.centre_role }}</strong></div>{% endif %}
         {% if member.Title and member.Title != "Research student" %}<div class="person-meta">{{ member.Title }}</div>{% endif %}
         {% if member.link %}
           <div class="person-link"><a href="{{ member.link }}" target="_blank">View Profile</a></div>
@@ -97,7 +98,7 @@ permalink: /People/
   <h2 id="associated" class="mt-5 mb-4">Associated Members</h2>
 
   <ul class="people-grid-list">
-    {% assign assoc_l = academics | where: "group", "associated" %}
+    {% assign assoc_l = academics | where: "group", "associated" %}{% assign assoc_f = fellows | where: "group", "associated" %}{% assign assoc_l = assoc_l | concat: assoc_f %}
   {% for member in assoc_l %}
       <li>
         <div class="person-name">{{ member.Name }}</div>
