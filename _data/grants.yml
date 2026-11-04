@@ -34,7 +34,7 @@
 
 - title: "PhD scholarship: Self-supervised learning for endoscopy video analysis"
   funder: "SST (50%) and industrial collaborator (50%)"
-  amount: "£124,300"
+  amount: "£124,300 (50% externally funded)"
   pi: "Giacomo Tarroni"
   start_date: "2024-07-01"
   end_date: "2027-08-31"
@@ -89,8 +89,8 @@
   status: completed
 
 - title: "PhD Studentship: Aspects of Retrieval Augmented Generation LLMs"
-  funder: "Mike Hudson Foundation (50%)"
-  amount: "PhD studentship"
+  funder: "Mike Hudson Foundation"
+  amount: "PhD studentship (50% funded)"
   start_date: "2025-10-01"
   end_date: "2028-09-30"
   status: active
