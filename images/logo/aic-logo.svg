@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="132" viewBox="0 0 650 132" role="img" aria-labelledby="title">
+  <title id="title">AIC — AI Centre@CSG — Artificial Intelligence Research Centre</title>
+  <g fill="none" stroke="#274661" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 93 48 37 74 93 M34 68h28"/>
+    <path d="M99 37v56"/>
+    <path d="M169 44a28 28 0 1 0 0 42"/>
+  </g>
+  <g>
+    <circle cx="48" cy="37" r="7" fill="#F5BE37"/>
+    <circle cx="22" cy="93" r="6" fill="#E85C57"/>
+    <circle cx="74" cy="93" r="6" fill="#E85C57"/>
+    <circle cx="99" cy="37" r="7" fill="#26A878"/>
+    <circle cx="99" cy="93" r="6" fill="#26A878"/>
+    <circle cx="169" cy="44" r="7" fill="#438BE0"/>
+    <circle cx="169" cy="86" r="6" fill="#438BE0"/>
+  </g>
+  <g fill="#20374D" font-family="Arial, sans-serif">
+    <text x="206" y="65" font-size="44" font-weight="700">AI Centre<tspan fill="#2368AB">@CSG</tspan></text>
+    <text x="208" y="94" font-size="19">Artificial Intelligence Research Centre</text>
+  </g>
+</svg>

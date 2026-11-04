@@ -1,15 +1,20 @@
 - Name: Daniel Philps
   Title: Honorary Visiting Fellow
   Role: Member
+  group: external
 - Name: Darren Cook
   Title: Research Fellow in Natural Language Processing
   Role: Member
+  group: cs
 - Name: Jack Araz
   Title: Presidential Fellowship (School of Science & Technology)
   Role: Owner
+  group: cs
 - Name: Jonathan Passerat Palmbach
   Title: Honorary Research Fellow
   Role: Member
+  group: external
 - Name: Kwun Ho Ngan
   Title: Honorary  Research Fellow
   Role: Member
+  group: external

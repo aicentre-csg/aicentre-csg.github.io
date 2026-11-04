@@ -1,147 +1,196 @@
 - Name: Adam White
   Title: Visiting Lecturer
   link: null
+  group: cs
 - Name: Andrea Baronchelli
   Title: Professor
   link: https://www.citystgeorges.ac.uk/about/people/academics/andrea-baronchelli
+  group: associated
 - Name: Antonio Di Stasio
   Title: Lecturer in Computer Science
   link: https://www.citystgeorges.ac.uk/about/people/academics/antonio-di-stasio
+  group: cs
 - Name: Artur Garcez
   Title: Professor of Computer Science
   link: https://www.citystgeorges.ac.uk/about/people/academics/artur-davila-garcez
+  group: director
 - Name: Atif Riaz
   Title: Lecturer in Computer Science
   link: null
+  group: cs
 - Name: Caroline Li
   Title: Professor in Biomedical Engineering
   link: null
+  group: associated
 - Name: Chris Child
   Title: Associate Dean for Employability and Engagement
   link: https://www.citystgeorges.ac.uk/about/people/academics/chris-child
+  group: cs
 - Name: Christian Reynolds
   Title: Reader
   link: https://www.citystgeorges.ac.uk/about/people/academics/christian-reynolds
+  group: associated
 - Name: Christina Malamateniou
   Title: Reader - Diagnostic Radiography
   link: https://www.citystgeorges.ac.uk/about/people/academics/christina-malamateniou
+  group: associated
 - Name: Christos Kloukinas
   Title: Reader
   link: https://www.citystgeorges.ac.uk/about/people/academics/christos-kloukinas
+  group: cs
 - Name: Constantino Reyes Aldasoro
   Title: Senior Lecturer
   link: https://www.citystgeorges.ac.uk/about/people/academics/constantino-carlos-reyes-aldasoro
+  group: cs
 - Name: Daniel Chicharro Raventos
   Title: Lecturer in Computer Science
   link: https://www.citystgeorges.ac.uk/about/people/academics/daniel-chicharro-raventos
+  group: cs
 - Name: Eduardo Alonso
   Title: Professor of Artificial Intelligence & Computer Science Research
   link: https://www.citystgeorges.ac.uk/about/people/academics/eduardo-alonso
+  group: cs
 - Name: Emmanuel Pothos
   Title: Professor of Psychology
   link: https://www.citystgeorges.ac.uk/about/people/academics/emmanuel-pothos
+  group: associated
 - Name: Enrico Bonadio
   Title: Professor
   link: https://www.citystgeorges.ac.uk/about/people/academics/enrico-bonadio
+  group: associated
 - Name: Ernesto Jimenez Ruiz
   Title: Senior Lecturer in Artificial Intelligence
   link: https://www.citystgeorges.ac.uk/about/people/academics/ernesto-jimenez-ruiz
+  group: cs
 - Name: Ferheen Ayaz
   Title: Lecturer in Computer Science
   link: https://www.citystgeorges.ac.uk/about/people/academics/ferheen-ayaz
+  group: cs
 - Name: Franklyn Howe
   Title: null
   link: https://profiles.sgul.ac.uk/franklyn-howe
+  group: associated
 - Name: Gennady Andrienko
   Title: Professor
   link: https://www.citystgeorges.ac.uk/about/people/academics/gennady-andrienko
+  group: cs
 - Name: Giacomo Tarroni
   Title: Senior Lecturer
   link: https://www.citystgeorges.ac.uk/about/people/academics/giacomo-tarroni
+  group: cs
 - Name: Golnaz Badkobeh
   Title: Head of Department of Computer Science
   link: https://www.citystgeorges.ac.uk/about/people/academics/golnaz-badkobeh
+  group: cs
 - Name: Jacob Howe
   Title: Senior Lecturer
   link: https://www.citystgeorges.ac.uk/about/people/academics/jacob-howe
+  group: cs
 - Name: Jafar Al-Zaili
   Title: Senior Lecturer in Power and Propulsion
   link: https://www.citystgeorges.ac.uk/about/people/academics/jafar-al-zaili
+  group: associated
 - Name: Jialie Shen
   Title: Professor in Computer Vision and Machine Learning
   link: https://www.citystgeorges.ac.uk/about/people/academics/jialie-shen
+  group: cs
 - Name: Joseph Chuang
   Title: Professor in Mathematics
   link: https://www.citystgeorges.ac.uk/about/people/academics/joseph-chuang
+  group: associated
 - Name: Juan Guzman-Inigo
   Title: Lecturer in Aerospace Propulsion
   link: https://www.citystgeorges.ac.uk/about/people/academics/juan-guzman-inigo
+  group: associated
 - Name: Kevin Ryan
   Title: Lecturer in Computer Science
   link: null
+  group: cs
 - Name: Konstantinos Tsavdaridis
   Title: Professor of Structural Engineering
   link: https://www.citystgeorges.ac.uk/about/people/academics/konstantinos-tsavdaridis
+  group: associated
 - Name: Mai Elshehaly
   Title: Senior Lecturer in Data Visualisation (E&R)
   link: https://www.citystgeorges.ac.uk/about/people/academics/mai-elshehaly
+  group: cs
 - Name: Margaret Carran
   Title: Associate Professor/AD Education (AP)
   link: https://www.citystgeorges.ac.uk/about/people/academics/margaret-carran
+  group: cs
 - Name: Mark Broom
   Title: Professor of Mathematics
   link: https://www.citystgeorges.ac.uk/about/people/academics/mark-broom
+  group: associated
 - Name: Michael Akintunde
   Title: Lecturer in Computer Science
   link: null
+  group: cs
 - Name: Miguel Bravo Haro
   Title: Senior Lecturer in Structural Engineering
   link: https://www.citystgeorges.ac.uk/about/people/academics/miguel-bravo-haro
+  group: associated
 - Name: Natalia Andrienko
   Title: Professor
   link: https://www.citystgeorges.ac.uk/about/people/academics/natalia-andrienko
+  group: cs
 - Name: Neil Saunders
   Title: Senior Lecturer in Mathematics
   link: https://www.citystgeorges.ac.uk/about/people/academics/neil-saunders
+  group: associated
 - Name: Oleksandr Galkin
   Title: Senior Lecturer in Data Science
   link: null
+  group: cs
 - Name: Olga Galkina
   Title: Teaching Assistant in Data Science
   link: null
+  group: cs
 - Name: Panos Giannopoulos
   Title: Lecturer in Computer Science
   link: https://www.citystgeorges.ac.uk/about/people/academics/panos-giannopoulos
+  group: cs
 - Name: Pranava Madhyastha
   Title: Senior Lecturer in Computer Science
   link: https://www.citystgeorges.ac.uk/about/people/academics/pranava-madhyastha
+  group: cs
 - Name: Raj Rajarajan
   Title: Professor of Security Engineering
   link: https://www.citystgeorges.ac.uk/about/people/academics/muttukrishnan-rajarajan
+  group: cs
 - Name: Robab Aghazadeh Chakherlou
   Title: Visiting Lecturer
   link: null
+  group: cs
 - Name: Robert Noble
   Title: Senior Lecturer
   link: https://www.citystgeorges.ac.uk/about/people/academics/robert-noble
+  group: associated
 - Name: Ross Paterson
   Title: Lecturer
   link: https://www.citystgeorges.ac.uk/about/people/academics/ross-paterson
+  group: cs
 - Name: Sara Heitlinger
   Title: Reader
   link: https://www.citystgeorges.ac.uk/about/people/academics/sara-heitlinger
+  group: cs
 - Name: Sathiskumar Anusuya Ponnusami
   Title: Reader
   link: https://www.citystgeorges.ac.uk/about/people/academics/sathiskumar-anusuya-ponnusami
+  group: associated
 - Name: Savitha Sam Abraham
   Title: Lecturer in Computer Science
   link: null
+  group: cs
 - Name: Tala El Samad
   Title: Senior Lecturer in Energy Systems
   link: null
+  group: associated
 - Name: Tillman Weyde
   Title: Reader
   link: https://www.citystgeorges.ac.uk/about/people/academics/tillman-weyde
+  group: director
 - Name: Ximena Fernandez
   Title: Lecturer in Mathematics
   link: null
+  group: associated
