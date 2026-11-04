@@ -4,7 +4,7 @@
 #   funder:             (required) Funding body (e.g. EPSRC, Innovate UK)
 #   funder_logo:        (optional) Logo filename placed in images/
 #   amount:             (optional) Award amount as string, e.g. "£450,000"
-#   pi:                 (required) Principal Investigator name
+#   pi:                 (optional) Principal Investigator name
 #   co_investigators:   (optional) Comma-separated co-investigator names
 #   start_date:         (required) ISO 8601 — "YYYY-MM-DD"
 #   end_date:           (required) ISO 8601 — "YYYY-MM-DD" — used to determine active vs completed
@@ -31,3 +31,66 @@
   link: "https://mirg.city.ac.uk/jazzdap1"
   description: "New Directions in Digital Jazz Studies: Music Information Retrieval and AI Support for Jazz Scholarship in Digital Archives."
   status: completed
+
+- title: "PhD scholarship: Self-supervised learning for endoscopy video analysis"
+  funder: "SST (50%) and industrial collaborator (50%)"
+  amount: "£124,300 (50% externally funded)"
+  pi: "Giacomo Tarroni"
+  start_date: "2024-07-01"
+  end_date: "2027-08-31"
+  description: "PhD scholarship (total funding £124,300 FEC, 50% external)."
+  status: active
+
+- title: "PhD scholarship: Unsupervised Machine Learning for Cardiovascular Image Analysis"
+  funder: "EPSRC (50%) and St George's Charity (50%)"
+  amount: "£111,668"
+  pi: "Giacomo Tarroni"
+  co_investigators: "Marta Varela"
+  start_date: "2025-10-01"
+  end_date: "2029-09-30"
+  description: "PhD scholarship."
+  status: active
+
+- title: "PhD scholarship: Physics-Aware Machine Learning for Cardiovascular Medicine"
+  funder: "EPSRC (50%) and St George's Charity (50%)"
+  amount: "£111,668"
+  pi: "Marta Varela"
+  co_investigators: "Giacomo Tarroni"
+  start_date: "2025-10-01"
+  end_date: "2029-09-30"
+  description: "PhD scholarship."
+  status: active
+
+- title: "Knowledge Transfer Partnership with ChangeSchool (KTP ChangeSchool 25_26 R5, RESW100078)"
+  funder: "Innovate UK, ChangeSchool Limited"
+  amount: "£359,820"
+  pi: "Sara Jones"
+  co_investigators: "Christopher Child"
+  start_date: "2026-07-01"
+  end_date: "2028-12-31"
+  status: active
+
+- title: "Knowledge Transfer Partnership with NCDV (KTP NCDV 25_26 R2)"
+  funder: "Innovate UK, NCDV"
+  amount: "£303,063"
+  pi: "Darren Cook"
+  co_investigators: "Christopher Child"
+  start_date: "2026-05-05"
+  end_date: "2028-06-30"
+  status: active
+
+- title: "Robust inference with probabilistic answer set programs scaffolds for large language models"
+  funder: ""
+  amount: "£560,000"
+  pi: "Pranava Madhyastha"
+  co_investigators: "Anthony Cohn (Leeds), Alessandra Russo (Imperial)"
+  start_date: "2024-08-01"
+  end_date: "2026-08-31"
+  status: completed
+
+- title: "PhD Studentship: Aspects of Retrieval Augmented Generation LLMs"
+  funder: "Mike Hudson Foundation"
+  amount: "PhD studentship (50% funded)"
+  start_date: "2025-10-01"
+  end_date: "2028-09-30"
+  status: active

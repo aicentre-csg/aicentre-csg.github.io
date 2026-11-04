@@ -30,7 +30,7 @@ permalink: /grants.html
         {% if grant.amount and grant.amount != "" %} &nbsp;|&nbsp; <strong>Amount:</strong> {{ grant.amount }}{% endif %}
       </p>
       <p style="margin-bottom: 0.2em;">
-        <strong>PI:</strong> {{ grant.pi }}
+        {% if grant.pi and grant.pi != "" %}<strong>PI:</strong> {{ grant.pi }}{% endif %}
         {% if grant.co_investigators and grant.co_investigators != "" %}
           &nbsp;|&nbsp; <strong>Co-Is:</strong> {{ grant.co_investigators }}
         {% endif %}
@@ -64,7 +64,7 @@ permalink: /grants.html
         {% if grant.amount and grant.amount != "" %} &nbsp;|&nbsp; <strong>Amount:</strong> {{ grant.amount }}{% endif %}
       </p>
       <p style="margin-bottom: 0.2em;">
-        <strong>PI:</strong> {{ grant.pi }}
+        {% if grant.pi and grant.pi != "" %}<strong>PI:</strong> {{ grant.pi }}{% endif %}
         {% if grant.co_investigators and grant.co_investigators != "" %}
           &nbsp;|&nbsp; <strong>Co-Is:</strong> {{ grant.co_investigators }}
         {% endif %}
