@@ -11,10 +11,11 @@ permalink: /grants.html
 <p>Research grants and funded projects at the AI Centre@CSG.</p>
 
 {% assign today = 'now' | date: '%s' | plus: 0 %}
+{% assign sorted_grants = site.data.grants | sort: "start_date" | reverse %}
 
 <h2>Active Grants</h2>
 {% assign has_active = false %}
-{% for grant in site.data.grants %}
+{% for grant in sorted_grants %}
   {% if grant.status == "active" %}
     {% assign has_active = true %}
     <div class="news-item" style="margin-bottom: 1.8em; padding-bottom: 1em; border-bottom: 1px solid #ddd;">
@@ -48,7 +49,7 @@ permalink: /grants.html
 
 <h2>Completed Grants</h2>
 {% assign has_completed = false %}
-{% for grant in site.data.grants %}
+{% for grant in sorted_grants %}
   {% if grant.status == "completed" %}
     {% assign has_completed = true %}
     <div class="news-item" style="margin-bottom: 1.8em; padding-bottom: 1em; border-bottom: 1px solid #ddd;">
