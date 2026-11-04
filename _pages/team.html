@@ -57,21 +57,18 @@ permalink: /People/
   </style>
 
 
-  <h2 id="staff" class="mt-5 mb-4">Academics</h2>
+  {% assign academics = site.data.acedemics_with_links %}
+  {% assign fellows = site.data.research_fellow %}
+  <h2 id="directors" class="mt-5 mb-4">Directors</h2>
 
   <ul class="people-grid-list">
-    {% for member in site.data.acedemics_with_links %}
+    {% assign directors_l = academics | where: "group", "director" %}
+  {% for member in directors_l %}
       <li>
         <div class="person-name">{{ member.Name }}</div>
-        
-        {% if member.Title %}
-          <div class="person-meta">{{ member.Title }}</div>
-        {% endif %}
-
+        {% if member.Title and member.Title != "Research student" %}<div class="person-meta">{{ member.Title }}</div>{% endif %}
         {% if member.link %}
-          <div class="person-link">
-            <a href="{{ member.link }}" target="_blank">View Profile</a>
-          </div>
+          <div class="person-link"><a href="{{ member.link }}" target="_blank">View Profile</a></div>
         {% endif %}
       </li>
     {% endfor %}
@@ -79,53 +76,68 @@ permalink: /People/
 
   <hr>
 
-  <h2 id="students" class="mt-5 mb-4">PhD Students</h2>
+  <h2 id="cs" class="mt-5 mb-4">Computer Science Members</h2>
+
+  <ul class="people-grid-list">
+    {% assign cs_l = academics | where: "group", "cs" %}
+  {% assign cs_f = fellows | where: "group", "cs" %}{% assign cs_l = cs_l | concat: cs_f %}
+  {% for member in cs_l %}
+      <li>
+        <div class="person-name">{{ member.Name }}</div>
+        {% if member.Title and member.Title != "Research student" %}<div class="person-meta">{{ member.Title }}</div>{% endif %}
+        {% if member.link %}
+          <div class="person-link"><a href="{{ member.link }}" target="_blank">View Profile</a></div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <hr>
+
+  <h2 id="associated" class="mt-5 mb-4">Associated Members</h2>
+
+  <ul class="people-grid-list">
+    {% assign assoc_l = academics | where: "group", "associated" %}
+  {% for member in assoc_l %}
+      <li>
+        <div class="person-name">{{ member.Name }}</div>
+        {% if member.Title and member.Title != "Research student" %}<div class="person-meta">{{ member.Title }}</div>{% endif %}
+        {% if member.link %}
+          <div class="person-link"><a href="{{ member.link }}" target="_blank">View Profile</a></div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <hr>
+
+  <h2 id="external" class="mt-5 mb-4">External Members</h2>
+
+  <ul class="people-grid-list">
+    {% assign ext_l = fellows | where: "group", "external" %}
+  {% assign ext_l = ext_l | concat: site.data.visitors %}
+  {% for member in ext_l %}
+      <li>
+        <div class="person-name">{{ member.Name }}</div>
+        {% if member.Title and member.Title != "Research student" %}<div class="person-meta">{{ member.Title }}</div>{% endif %}
+        {% if member.link %}
+          <div class="person-link"><a href="{{ member.link }}" target="_blank">View Profile</a></div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <hr>
+
+  <h2 id="students" class="mt-5 mb-4">Student Members</h2>
 
   <ul class="people-grid-list">
     {% for member in site.data.phd_students %}
       <li>
         <div class="person-name">{{ member.Name }}</div>
-        
+        {% if member.Title and member.Title != "Research student" %}<div class="person-meta">{{ member.Title }}</div>{% endif %}
         {% if member.link %}
-          <div class="person-link">
-            <a href="{{ member.link }}" target="_blank">View Profile</a>
-          </div>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-
-  <hr>
-
-  <h2 id="researcher" class="mt-5 mb-4">Research and Presidential Fellow</h2>
-
-  <ul class="people-grid-list">
-    {% for member in site.data.research_fellow %}
-      <li>
-        <div class="person-name">{{ member.Name }}</div>
-
-        {% if member.link %}
-          <div class="person-link">
-            <a href="{{ member.link }}" target="_blank">View Profile</a>
-          </div>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-
-  <hr>
-
-  <h2 id="visitors" class="mt-5 mb-4">Visitors</h2>
-
-  <ul class="people-grid-list">
-    {% for member in site.data.visitors %}
-      <li>
-        <div class="person-name">{{ member.Name }}</div>
-
-        {% if member.link %}
-          <div class="person-link">
-            <a href="{{ member.link }}" target="_blank">View Profile</a>
-          </div>
+          <div class="person-link"><a href="{{ member.link }}" target="_blank">View Profile</a></div>
         {% endif %}
       </li>
     {% endfor %}
