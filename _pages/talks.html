@@ -23,7 +23,7 @@ permalink: /talks.html
   {% else %}
     {% assign display_date = item.date | date: "%-d %B %Y" %}
   {% endif %}
-  {% assign packed = epoch | append: "|||" | append: display_date | append: "|||" | append: item.title | append: "|||" | append: item.speaker | append: "|||" | append: item.affiliation | append: "|||" | append: item.abstract | append: "|||" | append: item.slides_link | append: "|||" | append: item.video_link | append: "|||" | append: item.host %}
+  {% assign packed = epoch | append: "|||" | append: display_date | append: "|||" | append: item.title | append: "|||" | append: item.speaker | append: "|||" | append: item.affiliation | append: "|||" | append: item.abstract | append: "|||" | append: item.slides_link | append: "|||" | append: item.video_link | append: "|||" | append: item.host | append: "|||" | append: item.location %}
   {% assign enriched = enriched | push: packed %}
 {% endfor %}
 
@@ -38,7 +38,7 @@ permalink: /talks.html
   {% if epoch >= future_cutoff %}
     {% assign has_upcoming = true %}
     <div class="news-item" style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #ddd;">
-      <p style="font-size: 0.95em; color: #666; margin-bottom: 0.3em;"><strong>{{ parts[1] }}</strong></p>
+      <p style="font-size: 0.95em; color: #666; margin-bottom: 0.3em;"><strong>{{ parts[1] }}</strong>{% if parts[9] and parts[9] != "" %} &middot; {{ parts[9] }}{% endif %}</p>
       <p style="font-size: 1.05em; font-weight: bold; margin-bottom: 0.3em;">{{ parts[2] }}</p>
       <p style="margin-bottom: 0.2em;">
         <strong>{{ parts[3] }}</strong>{% if parts[4] and parts[4] != "" %}, {{ parts[4] }}{% endif %}
@@ -62,7 +62,7 @@ permalink: /talks.html
   {% if epoch < future_cutoff %}
     {% assign has_past = true %}
     <div class="news-item" style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #ddd;">
-      <p style="font-size: 0.95em; color: #666; margin-bottom: 0.3em;"><strong>{{ parts[1] }}</strong></p>
+      <p style="font-size: 0.95em; color: #666; margin-bottom: 0.3em;"><strong>{{ parts[1] }}</strong>{% if parts[9] and parts[9] != "" %} &middot; {{ parts[9] }}{% endif %}</p>
       <p style="font-size: 1.05em; font-weight: bold; margin-bottom: 0.3em;">{{ parts[2] }}</p>
       <p style="margin-bottom: 0.2em;">
         <strong>{{ parts[3] }}</strong>{% if parts[4] and parts[4] != "" %}, {{ parts[4] }}{% endif %}
