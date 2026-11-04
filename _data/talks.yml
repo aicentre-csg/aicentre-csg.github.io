@@ -75,3 +75,8 @@
   location: "Online (Microsoft Teams)"
   abstract: "Presents neurosymbolic techniques for assuring the behaviour of autonomous systems: relational abstractions of decision-making with guarantees for reinforcement-learning policies, runtime monitoring, and conformal prediction for evaluating temporal-logic requirements. Co-hosted with the Centre for Software Reliability."
 
+- date: "2026-09-30T14:00:00+01:00"
+  title: "Industry vs Academic Perspectives on Data and Ontologies"
+  speaker: "Valentina Carapella"
+  location: "A111"
+
