@@ -1,0 +1,20 @@
+<div class="themes-grid">
+{% for t in site.data.themes %}
+  <div class="theme-card">
+    <p class="theme-name">
+      {% if t.link and t.link != "" %}<a href="{{ t.link }}">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}
+      {% if t.short and t.short != "" %}<span class="theme-badge">{{ t.short }}</span>{% endif %}
+    </p>
+    <p class="theme-leads"><strong>Lead:</strong> {{ t.leads }}</p>
+    {% if t.description and t.description != "" %}<p class="theme-desc">{{ t.description }}</p>{% endif %}
+  </div>
+{% endfor %}
+</div>
+<style>
+  .themes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin: 1em 0 2em; }
+  .theme-card { padding: 14px 16px; background: #f5f8fb; border-left: 5px solid #F5BE37; border-radius: 4px; }
+  .theme-name { font-size: 1.1em; font-weight: bold; margin: 0 0 .3em; color: #274661; }
+  .theme-name a { color: #274661; }
+  .theme-badge { margin-left: .5em; padding: 1px 8px; font-size: .7em; color: #fff; background: #274661; border-radius: 10px; vertical-align: middle; }
+  .theme-leads, .theme-desc { margin: 0 0 .3em; font-size: .95em; }
+</style>
