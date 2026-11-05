@@ -10,11 +10,18 @@ permalink: /publications/
 # Publications
 
 
-<p>Selected recent publications by AI Centre members (2025 onwards), newest first. The list is compiled from public bibliographic records (OpenAlex) and may be incomplete.</p>
+<p>Selected publications by AI Centre members, grouped by year, newest first. The list is compiled from public bibliographic records (OpenAlex) and may be incomplete.</p>
 
-<ul class="publication-list">
 {% assign pubs = site.data.publications_3 | sort: "date" | reverse %}
+{% assign current_year = "" %}
 {% for publi in pubs %}
+  {% assign y = publi.year | default: publi.date | slice: 0, 4 %}
+  {% if y != current_year %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    {% assign current_year = y %}
+<h2 id="{{ y }}" style="margin-top: 1.5em;">{{ y }}</h2>
+<ul class="publication-list">
+  {% endif %}
   <li style="margin-bottom: 14px;">
     <strong>{{ publi.title }}</strong> <br />
     <em>{{ publi.authors }}</em> <br />
