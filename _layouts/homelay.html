@@ -2,10 +2,14 @@
 layout: default
 ---
 
-  <div id="homeid" class="col-sm-8">
-        <h1>Welcome to the AI Research Centre</h1>
+  {% include hero.html %}
 
+  <div id="homeid" class="col-sm-8">
 	{{ content }}
+
+	<h2>Core Themes</h2>
+	{% include themes_list.html %}
+	<p><a href="{{ site.baseurl }}/themes/">All themes and labs &rarr;</a></p>
   </div>
   <div id="newsid" class="col-sm-4" >
 	{% include news.html %}

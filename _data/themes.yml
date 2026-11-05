@@ -1,0 +1,44 @@
+# Core research themes / labs, shown on /themes/ and on the home page.
+# Fields:
+#   name:   (required) Theme or lab name
+#   short:  (optional) Abbreviation shown as a badge
+#   leads:  (required) Lead(s), comma-separated
+#   link:   (optional) Web page of the theme/lab (external or internal URL)
+#   description: (optional) One or two sentences
+
+- name: "Machine Intelligence and Media Informatics"
+  short: "MI²"
+  leads: "Tillman Weyde"
+  link: "https://mirg.city.ac.uk/"
+  description: "Machine learning and AI for music, audio and other media."
+
+- name: "Neuro-Symbolic AI"
+  short: "NeSy"
+  leads: "Artur Garcez"
+  description: "Combining neural learning with symbolic reasoning for robust, explainable AI."
+
+- name: "Knowledge Graphs Lab"
+  short: "KG-Lab"
+  leads: "Ernesto Jimenez-Ruiz"
+  link: "https://aicentre-csg.github.io/kg-lab/"
+  description: "Representing, integrating and reasoning over knowledge at scale."
+
+- name: "Multi-Agent Systems"
+  short: "MAS"
+  leads: "Eduardo Alonso"
+  description: "Learning and coordination in systems of interacting agents."
+
+- name: "Natural Language Processing and Large Language Models"
+  short: "NLP-LLMs"
+  leads: "Pranava Madhyastha"
+  description: "Language understanding and reasoning with large language models."
+
+- name: "Computer Vision"
+  short: "CV"
+  leads: "Giacomo Tarroni, Carlos Constantino Reyes"
+  description: "Learning from images and video, including medical imaging."
+
+- name: "Adaptive Computing Systems"
+  short: "ACS"
+  leads: "Christos Kloukinas"
+  description: "Computing systems that adapt to changing conditions and requirements."

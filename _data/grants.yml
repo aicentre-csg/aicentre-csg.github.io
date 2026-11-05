@@ -94,3 +94,28 @@
   start_date: "2025-10-01"
   end_date: "2028-09-30"
   status: active
+
+- title: "GUARD: Ensuring Interoperable and Trustworthy Knowledge Graphs for Defence and National Security AI"
+  funder: "The Alan Turing Institute"
+  amount: "£263k"
+  pi: "Ernesto Jimenez-Ruiz"
+  start_date: "2025-11-01"
+  end_date: "2027-05-31"
+  status: active
+
+- title: "CEREBRA AI: A unified framework for continual, explainable and embodied General-Purpose Artificial Intelligence"
+  funder: "Horizon Europe"
+  amount: "£190k"
+  pi: "Ernesto Jimenez-Ruiz"
+  co_investigators: "Tillman Weyde, Pranava Madhyastha, Artur Garcez"
+  start_date: "2026-09-01"
+  end_date: "2030-08-31"
+  status: active
+
+- title: "RETRACE: Retrofitting Requirements for Auditable Crossings into Exchange Standards"
+  funder: "The Alan Turing Institute"
+  amount: "£65k"
+  pi: "Ernesto Jimenez-Ruiz (City St George's), Valentina Tamma (University of Liverpool)"
+  start_date: "2026-11-01"
+  end_date: "2027-03-31"
+  status: active
