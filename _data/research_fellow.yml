@@ -3,13 +3,13 @@
   Role: Member
   group: external
 - Name: Darren Cook
-  Title: Research Fellow in Natural Language Processing
+  Title: Research Fellow in Natural Language Processing (School of Policy & Global Affairs)
   Role: Member
-  group: cs
+  group: associated
 - Name: Jack Araz
   Title: Presidential Fellowship (School of Science & Technology)
   Role: Owner
-  group: cs
+  group: associated
 - Name: Jonathan Passerat Palmbach
   Title: Honorary Research Fellow
   Role: Member

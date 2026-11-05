@@ -15,6 +15,7 @@
   link: https://www.citystgeorges.ac.uk/about/people/academics/artur-davila-garcez
   group: director
   order: 2
+  centre_role: Co-Director
 - Name: Atif Riaz
   Title: Lecturer in Computer Science
   link: null
@@ -192,6 +193,7 @@
   link: https://www.citystgeorges.ac.uk/about/people/academics/tillman-weyde
   group: director
   order: 1
+  centre_role: Director
 - Name: Ximena Fernandez
   Title: Lecturer in Mathematics
   link: null
