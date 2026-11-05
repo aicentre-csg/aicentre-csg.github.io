@@ -15,7 +15,7 @@
     <circle cx="169" cy="86" r="6" fill="#438BE0"/>
   </g>
   <g fill="#20374D" font-family="Arial, sans-serif">
-    <text x="206" y="65" font-size="44" font-weight="700">AI Centre<tspan fill="#2368AB">@CSG</tspan></text>
+    <text x="206" y="65" font-size="44" font-weight="700">AI-Centre<tspan fill="#2368AB">@CSG</tspan></text>
     <text x="208" y="94" font-size="19">Artificial Intelligence Research Centre</text>
     <text x="208" y="120" font-size="17" fill="#4a6178">City St George's, University of London</text>
   </g>
